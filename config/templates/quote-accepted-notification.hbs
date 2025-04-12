@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Quote Accepted - Order #{{orderNumber}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .order-info {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border: 1px solid #e0e0e0;
+        }
+
+        .books-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        .books-table th,
+        .books-table td {
+            border: 1px solid #e0e0e0;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .books-table th {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777777;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white !important;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .totals {
+            margin-top: 15px;
+            text-align: right;
+        }
+
+        .status-box {
+            background-color: #e7f7ed;
+            border-left: 4px solid #27ae60;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+
+        .highlight {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        a{
+            color: #f2f2f2 !important;
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Quote Accepted!</h2>
+    </div>
+
+    <div class="content">
+        <p>Hello {{sellerName}},</p>
+
+        <p>Good news! <strong>{{buyerName}}</strong> has accepted your quote for Order #{{orderNumber}}.</p>
+
+        <div class="status-box">
+            <p><strong>Next Steps:</strong></p>
+            <p>The order has been moved to <span class="highlight">Awaiting Payment</span> status. Once payment is
+                received, you will be notified to proceed with order fulfillment.</p>
+        </div>
+
+        <div class="order-info">
+            <p><strong>Order #:</strong> {{orderNumber}}</p>
+            <p><strong>Date Accepted:</strong> {{acceptedDate}}</p>
+            <p><strong>Status:</strong> <span class="highlight">{{orderStatus}}</span></p>
+            <p><strong>Buyer:</strong> {{buyerName}}</p>
+
+            <p><strong>Shipping Address:</strong><br>
+                {{shippingAddress}}</p>
+        </div>
+
+        <h3>Order Details:</h3>
+        <table class="books-table">
+            <thead>
+                <tr>
+                    <th>Book Code</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each books}}
+                <tr>
+                    <td>{{this.code}}</td>
+                    <td>{{this.title}}</td>
+                    <td>₹{{this.price}}</td>
+                    <td>{{this.quantity}}</td>
+                    <td>₹{{this.total}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+        <div class="totals">
+            <p><strong>Subtotal:</strong> ₹{{subtotal}}</p>
+            <p><strong>Discount:</strong> {{discountPercentage}}% (₹{{discountAmount}})</p>
+            <p><strong>Delivery Charges:</strong> ₹{{deliveryCharges}}</p>
+            <p><strong>Handling Charges:</strong> ₹{{handlingCharges}}</p>
+            <p><strong>Final Total:</strong> ₹{{finalTotal}}</p>
+        </div>
+
+        <p>You can view complete order details in your seller dashboard.</p>
+
+        <a href="{{dashboardLink}}" class="button">View Order Details</a>
+
+        <p>Thank you for your service!</p>
+
+        <p>Best regards,<br>
+            The {{companyName}} Team</p>
+    </div>
+
+    <div class="footer">
+        <p>© {{currentYear}} {{companyName}}. All rights reserved.</p>
+        <p>If you need assistance, please contact us at {{supportEmail}}</p>
+    </div>
+</body>
+
+</html>

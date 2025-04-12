@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Order #{{orderId}} Shipped</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .header {
+            background-color: #2196f3;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+            background: #f9f9f9;
+        }
+
+        .details {
+            background-color: #fff;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3f51b5;
+            color: #fff !important;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Your Order Has Been Shipped</h2>
+    </div>
+    <div class="content">
+        <p>Hi {{buyerName}},</p>
+
+        <p>Your order <strong>#{{orderId}}</strong> has been shipped by {{sellerName}}.</p>
+
+        <div class="details">
+            <p><strong>Carrier:</strong> {{carrier}}</p>
+            <p><strong>Tracking Number:</strong> {{trackingNumber}}</p>
+            <p><strong>Estimated Delivery:</strong> {{estimatedDeliveryDate}}</p>
+        </div>
+
+        <p><strong>Shipping Notes:</strong></p>
+        <blockquote>{{shippingNotes}}</blockquote>
+
+        <p><strong>Shipped On:</strong> {{shippingDate}}</p>
+
+        <a class="button" href="{{dashboardLink}}">Track Your Order</a>
+
+        <p>Thanks for ordering with {{companyName}}!</p>
+
+        <div class="footer">
+            <p>&copy; {{currentYear}} {{companyName}}. Need help? <a href="mailto:{{supportEmail}}">{{supportEmail}}</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

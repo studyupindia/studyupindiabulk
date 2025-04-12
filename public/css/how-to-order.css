@@ -1,0 +1,150 @@
+/* How to Order Popover Styles - Streamlined */
+.how-to-order-container {
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 100;
+}
+
+.info-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--primary-color, #3f51b5);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-button:hover {
+    background-color: var(--primary-dark, #002984);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-button i {
+    font-size: 1rem;
+}
+
+/* Inner Content Styles */
+.popover-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color, #3f51b5);
+    border-radius: 8px 8px 0 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.popover-header h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.close-popover {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.close-popover:hover {
+    transform: scale(1.1);
+}
+
+.popover-content {
+    padding: 1.5rem;
+}
+
+.steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+.steps-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.step-number {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: var(--primary-light, #757de8);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.note {
+    background-color: rgba(255, 152, 0, 0.1);
+    border-left: 3px solid var(--warning-color, #ff9800);
+    padding: 1rem;
+    border-radius: 4px;
+    color: #333;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.note i {
+    color: var(--warning-color, #ff9800);
+    margin-right: 0.5rem;
+}
+
+/* Media queries for responsive content */
+@media screen and (max-width: 576px) {
+    .popover-header {
+        padding: 0.8rem;
+    }
+
+    .popover-content {
+        padding: 1.2rem;
+    }
+
+    .steps-list li {
+        padding-left: 2rem;
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .step-number {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .note {
+        padding: 0.8rem;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Return & Refund Policy - StudyUpIndia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/return-and-refund.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#publications">Publications</a>
+          <a href="/contact">Contact</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %> <% if (user && user.role == 'seller') { %>
+          <a href="/seller-dashboard">Dashboard</a>
+          <% } %> <% if (user && user.role == 'buyer') { %>
+          <a href="/order-history">Dashboard</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/">Home</a>
+        <a href="/#publications">Publications</a>
+        <a href="/contact">Contact</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </div>
+    </section>
+
+    <div class="container">
+      <h1 class="page-title">Return & Refund Policy</h1>
+
+      <p>
+        At StudyUpIndia, we strive to ensure your satisfaction with every order.
+        If you are not entirely satisfied with your purchase, we're here to help
+        with easy and transparent return and refund policies.
+      </p>
+
+      <h2>1. Return Policy</h2>
+      <p>Returns are accepted only under the following conditions:</p>
+      <ul>
+        <li>You received a damaged or defective product.</li>
+        <li>You received an incorrect item.</li>
+      </ul>
+      <p>
+        To be eligible for a return, the item must be unused and in its original
+        condition with all packaging and tags intact. Requests for return must
+        be initiated within <strong>3 days</strong> of receiving the product.
+      </p>
+
+      <h2>2. How to Request a Return</h2>
+      <p>
+        To request a return, please email us at
+        <a href="mailto:studyupindia1@gmail.com">studyupindia1@gmail.com</a>
+        with the following details:
+      </p>
+      <ul>
+        <li>Order ID</li>
+        <li>Reason for return</li>
+        <li>
+          Photographs of the item (in case of damage or incorrect product)
+        </li>
+      </ul>
+      <p>
+        Once your request is received and verified, our support team will
+        contact you with further instructions.
+      </p>
+
+      <h2>3. Refunds</h2>
+      <p>
+        Once we receive your returned item, we will inspect it and notify you of
+        the status. If your return is approved, a refund will be initiated to
+        your original method of payment.
+      </p>
+
+      <p>
+        If you cancel any order after we have procured the items but before
+        shipping, a <strong>restocking fee</strong> will be charged. The
+        restocking fee varies depending on the product category and will be
+        deducted from the refund amount.
+      </p>
+
+      <p>
+        Refunds (after deduction, if applicable) will be processed within
+        <strong>5 working days</strong>.
+      </p>
+
+      <h2>4. Shipping Charges</h2>
+      <p>
+        Shipping costs are non-refundable. If the return is due to our error
+        (wrong or damaged item), we will cover the return shipping. Otherwise,
+        you will be responsible for paying your own return shipping costs.
+      </p>
+
+      <h2>5. Non-Returnable Items</h2>
+      <p>The following items cannot be returned or refunded:</p>
+      <ul>
+        <li>Items damaged after delivery</li>
+        <li>Customized or personalized orders</li>
+        <li>Items without original packaging or in used condition</li>
+      </ul>
+
+      <h2>6. Contact Us</h2>
+      <p>
+        If you have any questions about our Return and Refund Policy, feel free
+        to contact us at:
+      </p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:studyupindia1@gmail.com">studyupindia1@gmail.com</a>
+        </li>
+        <li>Phone: +91 9868505044</li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StudyUpIndia</h3>
+          <p>Your trusted source for educational books and materials.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/return-and-refund">Return & Refund Policy</a></li>
+            <li><a href="/shipping-policy">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/studyupindia" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/studyupindia/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@studyupindia" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StudyUp India. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

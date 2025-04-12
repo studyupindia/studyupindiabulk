@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - StudyUpIndia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/contact-us.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#publications">Publications</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %> <% if (user && user.role == 'seller') { %>
+          <a href="/seller-dashboard">Dashboard</a>
+          <% } %> <% if (user && user.role == 'buyer') { %>
+          <a href="/order-history">Dashboard</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/">Home</a>
+        <a href="/#publications">Publications</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </div>
+    </section>
+
+    <div class="container">
+      <h1 class="page-title">Contact Us</h1>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-card">
+            <h2 class="info-title">Get In Touch</h2>
+
+            <div class="info-detail">
+              <span class="info-icon"
+                ><i class="fas fa-map-marker-alt"></i
+              ></span>
+              <span class="info-text">
+                StudyUpIndia Office<br />
+                123 Education Street, Knowledge Park<br />
+                New Delhi, 110001
+              </span>
+            </div>
+
+            <div class="info-detail">
+              <span class="info-icon"><i class="fas fa-phone"></i></span>
+              <span class="info-text">+91 9868505044</span>
+            </div>
+
+            <div class="info-detail">
+              <span class="info-icon"><i class="fas fa-envelope"></i></span>
+              <span class="info-text">studyupindia1@gmail.com</span>
+            </div>
+
+            <div class="office-hours">
+              <h3 class="hours-title">Office Hours</h3>
+              <div class="hours-list">
+                Monday - Friday: 9:00 AM - 6:00 PM<br />
+                Saturday: 10:00 AM - 4:00 PM<br />
+                Sunday: Closed
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.7958011724175!2d77.11160167623764!3d28.731202975632324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQzJzUyLjIiTiA3N8KwMDYnNTEuMCJF!5e0!3m2!1sen!2sin!4v1681275456646!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            style="border: 0; border-radius: 8px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your footer would go here, but as requested, not included -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StudyUpIndia</h3>
+          <p>Your trusted source for educational books and materials.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/return-and-refund">Return & Refund Policy</a></li>
+            <li><a href="/shipping-policy">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/studyupindia" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/studyupindia/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@studyupindia" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StudyUp India. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

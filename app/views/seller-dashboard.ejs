@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyUp - Seller Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="./css/sd-v6.css"> -->
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/seller-dashboard.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Navbar -->
+      <section>
+        <section>
+          <header class="navbar">
+            <div class="logo">StudyUpIndia</div>
+            <nav class="nav-links">
+              <a href="/">Home</a>
+              <% if (!user) { %>
+              <a href="/buyer/signin">Login</a>
+              <a href="/seller/signin">Seller ?</a>
+              <% } %> 
+            </nav>
+            <button id="menu-toggle" class="menu-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </header>
+
+          <!-- Mobile Menu -->
+          <div id="mobile-menu" class="mobile-menu">
+            <button class="close-btn" id="menu-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <a href="/">Home</a>
+            <a href="/#publications">Publications</a>
+            <a href="/contact">Contact</a>
+            <% if (!user) { %>
+            <a href="/buyer/signin">Login</a>
+            <a href="/seller/signin">Seller ?</a>
+            <% } %> 
+          </div>
+        </section>
+      </section>
+
+      <section class="page-header">
+        <div class="container">
+          <h1>Seller Dashboard</h1>
+          <div class="seller-info-container">
+            <div class="seller-info">
+              <span id="seller-name">NCERT Official Store</span>
+              <span class="badge badge-success">Verified Seller</span>
+            </div>
+            <!-- <a
+              href="seller-dashboard-instructions.html"
+              target="_blank"
+              class="help-link"
+            >
+              <i class="fas fa-question-circle"></i> How to Use
+            </a> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboard-content">
+        <div class="container">
+          <!-- Order Pipeline Section -->
+          <section class="pipeline-section">
+            <div class="section-header">
+              <h2>Order Pipeline</h2>
+              <button
+                id="refresh-pipeline"
+                class="icon-btn"
+                title="Refresh Pipeline"
+              >
+                <i class="fas fa-sync-alt"></i>
+              </button>
+            </div>
+
+            <div class="pipeline-container" id="pipeline-container">
+              <!-- Will be populated dynamically by JavaScript -->
+            </div>
+          </section>
+
+          <!-- Filter and Search Section -->
+          <section class="filter-section">
+            <div class="search-bar">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search by order ID, book title, or buyer name..."
+              />
+              <button id="clear-search" type="button" class="clear-input-btn">
+                <i class="fas fa-times"></i>
+              </button>
+              <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-options">
+              <div class="filter-group">
+                <label for="order-status-filter">Order Status</label>
+                <select id="order-status-filter">
+                  <option value="">All Order Statuses</option>
+                  <!-- Will be populated dynamically -->
+                </select>
+              </div>
+              <div class="filter-group">
+                <label for="quote-status-filter">Quote Status</label>
+                <select id="quote-status-filter">
+                  <option value="">All Quote Statuses</option>
+                  <!-- Will be populated dynamically -->
+                </select>
+              </div>
+              <div class="filter-group">
+                <label>Date Range</label>
+                <div class="date-filter">
+                  <input type="date" id="date-from" placeholder="From" />
+                  <input type="date" id="date-to" placeholder="To" />
+                </div>
+              </div>
+              <button id="clear-filters" class="btn-secondary">Reset</button>
+              <button id="apply-filters" class="btn-primary">
+                Apply Filters
+              </button>
+            </div>
+          </section>
+
+          <!-- Tab Navigation -->
+          <div class="order-tabs">
+            <button class="tab-btn active" data-tab="all">All Orders</button>
+            <button class="tab-btn" data-tab="pending">New Requests</button>
+            <button class="tab-btn" data-tab="draft">Draft Quotes</button>
+            <button class="tab-btn" data-tab="quoted">Quotes Sent</button>
+            <button class="tab-btn" data-tab="accepted">Accepted</button>
+            <button class="tab-btn" data-tab="payment_completed">Paid</button>
+            <button class="tab-btn" data-tab="processing">Processing</button>
+            <button class="tab-btn" data-tab="completed">Completed</button>
+            <button class="tab-btn" data-tab="cancelled">Cancelled</button>
+          </div>
+
+          <!-- Orders Container -->
+          <section class="orders-container">
+            <div id="orders-list">
+              <!-- Orders will be loaded here -->
+            </div>
+            <div id="loading-spinner" class="loading-spinner">
+              <div class="spinner"></div>
+            </div>
+            <div id="no-orders" class="no-data">
+              <img src="/api/placeholder/200/200" alt="No orders" />
+              <p>No orders found</p>
+            </div>
+          </section>
+
+          <!-- Quick Actions Floating Button -->
+          <div class="quick-actions">
+            <button
+              class="quick-action-btn"
+              id="refresh-btn"
+              title="Refresh Data"
+            >
+              <i class="fas fa-sync-alt"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quote Edit Modal -->
+      <div id="quote-edit-modal" class="modal">
+        <div class="modal-content large-modal">
+          <div class="modal-header">
+            <h2 id="quote-modal-title">Edit Quote</h2>
+            <button class="modal-close" id="close-quote-modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div id="quote-modal-content">
+              <!-- Quote details will be loaded here -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="modal-actions">
+              <button class="btn-secondary" id="cancel-quote-btn">
+                Cancel
+              </button>
+              <button class="btn-primary" id="save-as-draft-btn">
+                Save as Draft
+              </button>
+              <button class="btn-success" id="send-quote-btn">
+                Send Quote to Buyer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Detail Modal -->
+      <div id="order-detail-modal" class="modal">
+        <div class="modal-content large-modal">
+          <div class="modal-header">
+            <h2>Order Details</h2>
+            <button class="modal-close" id="close-order-modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div id="order-modal-content">
+              <!-- Order details will be loaded here -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="close-detail-btn">Close</button>
+            <div class="modal-action-buttons" id="order-action-buttons">
+              <!-- Action buttons will be added here based on order status -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Processing Modal -->
+      <div id="process-order-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Process Order</h2>
+            <button class="modal-close" id="close-process-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="notification info-notification">
+              <i class="fas fa-info-circle"></i> Please confirm that this order
+              is ready to be processed.
+            </div>
+            <div class="form-group">
+              <label for="processing-notes">Processing Notes (Optional)</label>
+              <textarea
+                id="processing-notes"
+                placeholder="Add any processing notes or instructions..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-process-btn">
+              Cancel
+            </button>
+            <button class="btn-success" id="confirm-process-btn">
+              Confirm Processing
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shipping Modal -->
+      <div id="shipping-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Ship Order</h2>
+            <button class="modal-close" id="close-shipping-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="notification info-notification">
+              <i class="fas fa-info-circle"></i> Please provide shipping details
+              for this order.
+            </div>
+            <div
+              id="shipping-invoice-reminder"
+              class="notification warning-notification"
+            >
+              <i class="fas fa-exclamation-triangle"></i> You must upload an
+              invoice before shipping this order.
+            </div>
+            <div class="form-group">
+              <label for="shipping-carrier">Shipping Carrier*</label>
+              <select id="shipping-carrier" required>
+                <option value="">Select Carrier</option>
+                <option value="blue_dart">Blue Dart</option>
+                <option value="delhivery">Delhivery</option>
+                <option value="speed_post">Speed Post</option>
+                <option value="dtdc">DTDC</option>
+                <option value="ecom_express">Ecom Express</option>
+                <option value="fedex">FedEx</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div
+              class="form-group"
+              id="other-carrier-group"
+              style="display: none"
+            >
+              <label for="other-carrier">Other Carrier*</label>
+              <input
+                type="text"
+                id="other-carrier"
+                placeholder="Enter carrier name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="tracking-number">Tracking Number*</label>
+              <input
+                type="text"
+                id="tracking-number"
+                placeholder="Enter tracking number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="estimated-delivery">Estimated Delivery Date</label>
+              <input type="date" id="estimated-delivery" min="" />
+            </div>
+            <div class="form-group">
+              <label for="shipping-notes">Shipping Notes (Optional)</label>
+              <textarea
+                id="shipping-notes"
+                placeholder="Add any shipping notes or instructions..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-shipping-btn">
+              Cancel
+            </button>
+            <button class="btn-success" id="confirm-shipping-btn">
+              Mark as Shipped
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Complete Order Modal -->
+      <div id="complete-order-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Complete Order</h2>
+            <button class="modal-close" id="close-complete-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="notification info-notification">
+              <i class="fas fa-info-circle"></i> Please confirm that this order
+              has been delivered and should be marked as completed.
+            </div>
+            <div class="form-group">
+              <label for="actual-delivery">Actual Delivery Date</label>
+              <input type="date" id="actual-delivery" />
+            </div>
+            <div class="form-group">
+              <label for="completion-notes">Completion Notes (Optional)</label>
+              <textarea
+                id="completion-notes"
+                placeholder="Add any final notes about this order..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-complete-btn">
+              Cancel
+            </button>
+            <button class="btn-success" id="confirm-complete-btn">
+              Mark as Completed
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Invoice Upload Modal -->
+      <div id="invoice-upload-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Upload Invoice</h2>
+            <button class="modal-close" id="close-invoice-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="notification info-notification">
+              <i class="fas fa-info-circle"></i> Please upload an invoice for
+              this order. The invoice will be visible to the buyer.
+            </div>
+            <div class="form-group">
+              <label for="invoice-file">Invoice File* (PDF only)</label>
+              <div class="file-upload-container">
+                <input type="file" id="invoice-file" accept=".pdf" hidden />
+                <div class="file-upload-area" id="file-upload-area">
+                  <i class="fas fa-cloud-upload-alt"></i>
+                  <p>Click to upload or drag & drop</p>
+                  <span class="file-hint">Max size: 5MB</span>
+                </div>
+                <div class="file-info" id="file-info" style="display: none">
+                  <span class="file-name" id="file-name"></span>
+                  <button type="button" class="btn-text" id="remove-file">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="invoice-notes">Notes (Optional)</label>
+              <textarea
+                id="invoice-notes"
+                placeholder="Add any notes related to this invoice..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-invoice-btn">
+              Cancel
+            </button>
+            <button class="btn-success" id="upload-invoice-btn">
+              Upload Invoice
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Cancellation Modal -->
+      <div id="cancel-order-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Cancel Order</h2>
+            <button class="modal-close" id="close-cancel-modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="notification warning-notification">
+              <i class="fas fa-exclamation-triangle"></i> You are about to
+              cancel this order. This action cannot be undone.
+            </div>
+            <div class="form-group">
+              <label for="cancellation-reason">Cancellation Reason*</label>
+              <select id="cancellation-reason" required>
+                <option value="">Select a reason</option>
+                <option value="out_of_stock">Books are out of stock</option>
+                <option value="price_error">Pricing error</option>
+                <option value="shipping_issue">
+                  Cannot ship to buyer's location
+                </option>
+                <option value="buyer_request">
+                  Buyer requested cancellation
+                </option>
+                <option value="other">Other reason</option>
+              </select>
+            </div>
+            <div
+              class="form-group"
+              id="other-reason-group"
+              style="display: none"
+            >
+              <label for="other-reason">Specify Reason*</label>
+              <textarea
+                id="other-reason"
+                placeholder="Please provide details for the cancellation..."
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="cancellation-notes"
+                >Additional Notes (Optional)</label
+              >
+              <textarea
+                id="cancellation-notes"
+                placeholder="Add any additional notes about this cancellation..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-cancellation-btn">
+              Back
+            </button>
+            <button class="btn-danger" id="confirm-cancellation-btn">
+              Confirm Cancellation
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notifications -->
+      <div id="notification-container"></div>
+    </main>
+
+    <!-- <script src="./js/sd-v6.js"></script> -->
+    <script src="/js/seller-dashboard.js"></script>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

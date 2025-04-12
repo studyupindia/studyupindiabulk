@@ -1,0 +1,2462 @@
+[
+    {
+        "code": "123",
+        "title": "Mridang",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "124",
+        "title": "Joyful Mathematics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "122",
+        "title": "Sarangi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "125",
+        "title": "Anandmay Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "223",
+        "title": "Mridang",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "224",
+        "title": "Joyful Mathematics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "222",
+        "title": "Sarangi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "225",
+        "title": "Anandmay Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "331",
+        "title": "Veena",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "332",
+        "title": "Santoor",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "333",
+        "title": "Maths Mela",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "335",
+        "title": "Our Wondrous World",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "337",
+        "title": "Bansuri Part 1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Arts book"
+    },
+    {
+        "code": "334",
+        "title": "Ganit Mela",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "339",
+        "title": "Khel Yoga",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "340",
+        "title": "Khel Yog",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "336",
+        "title": "Hamara Adhbhut Sansar",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "338",
+        "title": "Bansuri Part 1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Arts book"
+    },
+    {
+        "code": "431",
+        "title": "Veena",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "432",
+        "title": "Santoor",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "433",
+        "title": "Maths Mela",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "435",
+        "title": "Our Wondrous World",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "439",
+        "title": "Khel Yoga",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "525",
+        "title": "Rimjhim V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "526",
+        "title": "Marigold V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "5",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "527",
+        "title": "Math - Magic V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "529",
+        "title": "Looking Around",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "528",
+        "title": "Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "530",
+        "title": "Aaspass",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "771",
+        "title": "Malhaar",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "773",
+        "title": "Poorvi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "772",
+        "title": "Deepakam",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "777",
+        "title": "Curiosity",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "780",
+        "title": "Kriti 2",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "arts books"
+    },
+    {
+        "code": "781",
+        "title": "Exploring Society",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "SST Book"
+    },
+    {
+        "code": "785",
+        "title": "Kaushal Bodh",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Vocational Education"
+    },
+    {
+        "code": "787",
+        "title": "Khel Yatra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "774",
+        "title": "Ganita Prakash",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "778",
+        "title": "Jigyasa",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "779",
+        "title": "Kriti 2",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Arts"
+    },
+    {
+        "code": "783",
+        "title": "Samaaj Ka Adhyayan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "SST Book"
+    },
+    {
+        "code": "788",
+        "title": "Khel Yatra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "775",
+        "title": "Ganit Prakash",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "786",
+        "title": "Kaushal Bodh",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Vocational Education"
+    },
+    {
+        "code": "846",
+        "title": "Vasant - Hindi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "847",
+        "title": "Bharat Ki Khoj - Suppl. Hindi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "848",
+        "title": "Durva - Second Lng. Hindi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "849",
+        "title": "Honey Dew - English",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "850",
+        "title": "It So Happened - Suppl. English",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 60.0,
+        "subject": "English"
+    },
+    {
+        "code": "851",
+        "title": "Ruchira III - Sanskrit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "852",
+        "title": "Mathematics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "853",
+        "title": "Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "854",
+        "title": "Science",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "855",
+        "title": "Vigyan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "856",
+        "title": "Our Past III part I - History",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 45.0,
+        "subject": "History"
+    },
+    {
+        "code": "857",
+        "title": "Hamare Aatit III Bhag I - Itihas",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 45.0,
+        "subject": "History"
+    },
+    {
+        "code": "862",
+        "title": "Our Past III part II - History",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 60.0,
+        "subject": "History"
+    },
+    {
+        "code": "863",
+        "title": "Hamare Aatit III Bhag II - Itihas",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 45.0,
+        "subject": "History"
+    },
+    {
+        "code": "858",
+        "title": "Resource & Development - Geography",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "859",
+        "title": "Bhugol",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "History"
+    },
+    {
+        "code": "860",
+        "title": "Social & Political Life",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "861",
+        "title": "Samajik Aur Rajniti Jeevan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "864",
+        "title": "OUR PAST -III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "History"
+    },
+    {
+        "code": "865",
+        "title": "HAMARE ATIT -III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "822",
+        "title": "Sanskhipta Budhacharitra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 50.0,
+        "subject": "Environmental Studies(EVS)"
+    },
+    {
+        "code": "955",
+        "title": "Kshitij",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 55.0,
+        "subject": "English"
+    },
+    {
+        "code": "956",
+        "title": "Kritika",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 25.0,
+        "subject": "English"
+    },
+    {
+        "code": "957",
+        "title": "Sparsh",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 45.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "958",
+        "title": "Sanchayan Suppl. Hindi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 25.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "959",
+        "title": "Beehive",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "960",
+        "title": "Moments  Suppl. English",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 40.0,
+        "subject": "English"
+    },
+    {
+        "code": "961",
+        "title": "Shemusi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 50.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "962",
+        "title": "Mathematics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 110.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "963",
+        "title": "Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 110.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "964",
+        "title": "Science",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 125.0,
+        "subject": "Science"
+    },
+    {
+        "code": "965",
+        "title": "Vigyan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 125.0,
+        "subject": "Science"
+    },
+    {
+        "code": "966",
+        "title": "India & Contemporary World",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 100.0,
+        "subject": "History"
+    },
+    {
+        "code": "967",
+        "title": "Bharat Aur Samakalin Vishwa",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 100.0,
+        "subject": "History"
+    },
+    {
+        "code": "968",
+        "title": "Contemporary India",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 55.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "969",
+        "title": "Samakalin Bharat",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 55.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "970",
+        "title": "Economics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 55.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "971",
+        "title": "Arthshastra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 55.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "972",
+        "title": "Democratic Politics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 80.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "973",
+        "title": "Loktantrik Rajniti",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 80.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "974",
+        "title": "Vyakran Vithi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 85.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "975",
+        "title": "Abhyasvan Bhava",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 110.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "976",
+        "title": "Words And Expressions-1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 115.0,
+        "subject": "english workbook"
+    },
+    {
+        "code": "977",
+        "title": "Information And Communication Technology",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 125.0,
+        "subject": "Computer Science"
+    },
+    {
+        "code": "13149",
+        "title": "Health and Physical Education",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 200.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "1055",
+        "title": "Kshitij - Hindi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 55.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1056",
+        "title": "Kritika - Hindi Suppl",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 25.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1057",
+        "title": "Sparsh -2nd Lang. Hindi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 70.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1058",
+        "title": "Sanchayan - Suppl. Hindi ( 2nd Lang.)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 35.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1059",
+        "title": "First Flight - English Text",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 75.0,
+        "subject": "English"
+    },
+    {
+        "code": "1060",
+        "title": "Footprints without Feet  Suppl. English",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 40.0,
+        "subject": "English"
+    },
+    {
+        "code": "1061",
+        "title": "Shemusi II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "10",
+        "price": 55.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "1062",
+        "title": "Mathematics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 125.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1063",
+        "title": "Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 125.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1064",
+        "title": "Science",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 160.0,
+        "subject": "Science"
+    },
+    {
+        "code": "1065",
+        "title": "Vigyan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 160.0,
+        "subject": "Science"
+    },
+    {
+        "code": "1066",
+        "title": "India & Contemporary World II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "1067",
+        "title": "Bharat Aur Samakalin Vishwa II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "1068",
+        "title": "Contemporapry India",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 75.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "1069",
+        "title": "Samakalin Bharat",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 75.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "1070",
+        "title": "Understanding Economic Development",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 80.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "1071",
+        "title": "Arthik Vikas Ki Samajh",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 80.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "1072",
+        "title": "Democratic Politics II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 65.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "1073",
+        "title": "Loktantrik Rajniti II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 65.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "1075",
+        "title": "Abhyaswanbhav",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 105.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "1076",
+        "title": "Words and Expression 2",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 120.0,
+        "subject": "workbook"
+    },
+    {
+        "code": "1077",
+        "title": "Health and Physical Education",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 180.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "11066",
+        "title": "Aroh - Hindi Core",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 70.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "11067",
+        "title": "Vitan - Suppl.Hindi I ( Core )",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 35.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "11069",
+        "title": "Antara - Hindi Lit.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 70.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "11070",
+        "title": "Antaral - Suppl. Hindi Lit.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 35.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "11072",
+        "title": "Hornbill - English Core",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 55.0,
+        "subject": "English"
+    },
+    {
+        "code": "11073",
+        "title": "Snapshot - Suppl. Eng Core",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 35.0,
+        "subject": "English"
+    },
+    {
+        "code": "11074",
+        "title": "Woven Words - English (Elective)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 100.0,
+        "subject": "English"
+    },
+    {
+        "code": "11075",
+        "title": "Sanskrit - Bhaswati",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "11",
+        "price": 60.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "11116",
+        "title": "Sanskrit - Shaswati",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "11",
+        "price": 70.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "11076",
+        "title": "Mathematics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 170.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "11078",
+        "title": "Ganit",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 170.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "11080",
+        "title": "Biology",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 185.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11081",
+        "title": "Jeev Vigyan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 185.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11082",
+        "title": "Chemistry Part I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 180.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11083",
+        "title": "Chemistry Part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 80.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11084",
+        "title": "Rasayan Vigyan Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 180.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11085",
+        "title": "Rasayan Vigyan Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 80.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11086",
+        "title": "Physics Part I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 120.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11087",
+        "title": "Physics Part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 110.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11088",
+        "title": "Bhautik Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 120.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11089",
+        "title": "Bhautik Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 110.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11090",
+        "title": "Themes of World History",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 145.0,
+        "subject": "History"
+    },
+    {
+        "code": "11091",
+        "title": "Vishva Itihas Ke Kuch Vishay",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 145.0,
+        "subject": "History"
+    },
+    {
+        "code": "11092",
+        "title": "Fundamental of Physical Geo.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 90.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11093",
+        "title": "Bhautuk Bhugol Ke Mool Sidhant",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 90.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11094",
+        "title": "India Phy. Environment",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 55.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11095",
+        "title": "Bharat Bhautik Paryavaran",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 55.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11096",
+        "title": "Prac.Work In Geography",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 75.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11097",
+        "title": "Bhugol Mein Prayogatmak Karya",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 80.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11098",
+        "title": "Eco. Statistics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 85.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "11099",
+        "title": "Arthashastra Mein Sankhiki",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 65.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "11100",
+        "title": "Indian Eco. Development",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 85.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "11101",
+        "title": "Bharatiya Arthvyavasta Ka Vikas",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 85.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "11102",
+        "title": "Indian Constitution at Work",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 125.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "11103",
+        "title": "Bharatiya sanvidhan Ka Karya",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 125.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "11117",
+        "title": "Pol. Theory part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 70.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "11118",
+        "title": "Rajniti - Siddhant Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 100.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "11104",
+        "title": "Sociology Part I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 50.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "11105",
+        "title": "Samajshastra Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 65.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "11106",
+        "title": "Understanding Society Part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 55.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "11107",
+        "title": "Samaj Ka Bodh Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 55.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "11108",
+        "title": "Business Studies",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 130.0,
+        "subject": "Business Studies"
+    },
+    {
+        "code": "11109",
+        "title": "Vyavasaik Adhyayan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 130.0,
+        "subject": "Business Studies"
+    },
+    {
+        "code": "11110",
+        "title": "Accountancy Part I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 125.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "11111",
+        "title": "Lekhashatra Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 125.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "11112",
+        "title": "Accountancy Part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 65.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "11113",
+        "title": "Lekhashatra Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 110.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "11114",
+        "title": "Psychology",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 115.0,
+        "subject": "Psychology"
+    },
+    {
+        "code": "11115",
+        "title": "Manovigyan Ka Parichaya",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 115.0,
+        "subject": "Psychology"
+    },
+    {
+        "code": "11144",
+        "title": "An Introduction to Indian Art",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 135.0,
+        "subject": "Fine Arts"
+    },
+    {
+        "code": "11119",
+        "title": "SANSKRIT SAHITYA - PARICHAYA",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 90.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "11120",
+        "title": "Computer Science Class XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 290.0,
+        "subject": "Computer Science"
+    },
+    {
+        "code": "11149",
+        "title": "Informatics Practices",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 170.0,
+        "subject": "Informatics Practices"
+    },
+    {
+        "code": "11150",
+        "title": "Biotechnology Textbook for class XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 390.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11152",
+        "title": "Health and Physical Education Textbook for Class XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 380.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "12070",
+        "title": "Aaroh - Hindi Core",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 70.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "12071",
+        "title": "Vitan - Suppl.Hindi I ( Core )",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 35.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "12072",
+        "title": "Antara - Hindi Lit.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 80.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "12073",
+        "title": "Antaral - Suppl. Hindi Lit. I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 25.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "12074",
+        "title": "Flemingo - English Core",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 55.0,
+        "subject": "English"
+    },
+    {
+        "code": "12075",
+        "title": "Vistas - Suppl. Eng Core",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 40.0,
+        "subject": "English"
+    },
+    {
+        "code": "12076",
+        "title": "Kaleidoscope - English Lit.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 145.0,
+        "subject": "English"
+    },
+    {
+        "code": "12077",
+        "title": "Sanskrit - Bhaswati II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "12",
+        "price": 70.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "12078",
+        "title": "Sanskrit - Shaswati II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "12",
+        "price": 90.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "12079",
+        "title": "Mathematics Part I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 110.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12080",
+        "title": "Mathematics Part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 115.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12081",
+        "title": "Ganit Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 110.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12082",
+        "title": "Ganit Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 155.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12083",
+        "title": "Biology 1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 170.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12084",
+        "title": "Jeev Vigyan 1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 220.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12085",
+        "title": "Chemistry I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 130.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12086",
+        "title": "Chemistry II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 120.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12087",
+        "title": "Rasayan Vigyan Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 130.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12088",
+        "title": "Rasayan Vigyan Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 120.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12089",
+        "title": "Physics I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 155.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12090",
+        "title": "Physics II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12091",
+        "title": "Bhautik I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 155.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12092",
+        "title": "Bhautik II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12093",
+        "title": "Themes In Indian History Part I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "12094",
+        "title": "Themes In Indian History Part II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "12125",
+        "title": "Themes In Indian History Part III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "12095",
+        "title": "Bharatiya Itihas Ke Kuch Ansh Bhag I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "12096",
+        "title": "Bharatiya Itihas Ke Kuch Ansh Bhag II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 105.0,
+        "subject": "History"
+    },
+    {
+        "code": "12126",
+        "title": "Bharatiya Itihas Ke Kuch Ansh Bhag III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 130.0,
+        "subject": "History"
+    },
+    {
+        "code": "12097",
+        "title": "Fundamentals of Human Geography",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 60.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12098",
+        "title": "Manav Bhugol Ke Mul Sidhant",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 60.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12099",
+        "title": "India People and Economy",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 90.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12100",
+        "title": "Bharat - Log Aur Arthavyavastha",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 90.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12101",
+        "title": "Prac.Work In Geography",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 55.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12102",
+        "title": "Bhugol Mein Prayogatmak Karya",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 55.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12103",
+        "title": "Microeconomics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 75.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "12104",
+        "title": "Vyasthi Arthashastra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 90.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "12105",
+        "title": "Macroeconomics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "12106",
+        "title": "Samashti Arthashastra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "12107",
+        "title": "Contemporary World Politics",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "12108",
+        "title": "Samakalin Vishwa Rajniti",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "12109",
+        "title": "Social Change in India",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 100.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "12110",
+        "title": "Bharat Mein Samajik Parivartan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 100.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "12111",
+        "title": "Indian Society - Sociology",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 110.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "12112",
+        "title": "Bharatiya Samaj - Samajshastra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 110.0,
+        "subject": "Sociology"
+    },
+    {
+        "code": "12113",
+        "title": "Business Studies I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Business Studies"
+    },
+    {
+        "code": "12114",
+        "title": "Business Studies II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 50.0,
+        "subject": "Business Studies"
+    },
+    {
+        "code": "12115",
+        "title": "Vyavasaik Adhyayan I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 105.0,
+        "subject": "Business Studies"
+    },
+    {
+        "code": "12116",
+        "title": "Vyavasaik Adhyayan II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 50.0,
+        "subject": "Business Studies"
+    },
+    {
+        "code": "12117",
+        "title": "Accountancy I - Partnership Accounts",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 95.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "12128",
+        "title": "Accountancy II - Company Accounts",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 115.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "12127",
+        "title": "Accountancy III - Computerised Accounting System",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 140.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "12119",
+        "title": "Politics in India since Independence",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 135.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "12120",
+        "title": "Lekhashatra I - Sajhedaari Khate",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 95.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "12121",
+        "title": "Lekhashastra II (Old Edition)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 75.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "12122",
+        "title": "Swatantra Bharat Mein Rajniti",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 135.0,
+        "subject": "Political Science"
+    },
+    {
+        "code": "12123",
+        "title": "Psychology",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 125.0,
+        "subject": "Psychology"
+    },
+    {
+        "code": "12124",
+        "title": "Manovigyan Ka Parichaya",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 140.0,
+        "subject": "Psychology"
+    },
+    {
+        "code": "12136",
+        "title": "HUMAN ECOLOGY AND FAMILY SCIENCES PART-I TEXTBOOK FOR CLASS XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 250.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "12137",
+        "title": "HUMAN ECOLOGY AND FAMILY SCIENCES PART II TEXT BOOK FOR CLASS XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 265.0,
+        "subject": "Economics"
+    },
+    {
+        "code": "12129",
+        "title": "Lekhashatra-II - Company Khate",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 115.0,
+        "subject": "Accountancy"
+    },
+    {
+        "code": "12144",
+        "title": "An Introduction To Indian Art Part II A textbook in Fine Arts for Class XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 175.0,
+        "subject": "Fine Arts"
+    },
+    {
+        "code": "12130",
+        "title": "Computer Science Textbook for Class XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 250.0,
+        "subject": "Computer Science"
+    },
+    {
+        "code": "12149",
+        "title": "Informatics Practices",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 205.0,
+        "subject": "Informatics Practices"
+    },
+    {
+        "code": "12150",
+        "title": "Biotechnology",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 435.0,
+        "subject": "Science"
+    },
+    {
+        "code": "671",
+        "title": "Malhaar",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "673",
+        "title": "Poorvi",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "672",
+        "title": "Deepakam",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Sanskrit"
+    },
+    {
+        "code": "677",
+        "title": "Curiosity",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "680",
+        "title": "Kriti 1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Arts"
+    },
+    {
+        "code": "681",
+        "title": "Exploring Society",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "sst book"
+    },
+    {
+        "code": "685",
+        "title": "Kaushal Bodh",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Vocational Education"
+    },
+    {
+        "code": "687",
+        "title": "Khel Yatra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "674",
+        "title": "Ganita Prakash",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "678",
+        "title": "Jigyasa",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "679",
+        "title": "Kriti 1",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Arts"
+    },
+    {
+        "code": "683",
+        "title": "Samaaj Ka Adhyayan",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "sst book"
+    },
+    {
+        "code": "688",
+        "title": "Khel Yatra",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Physical Education"
+    },
+    {
+        "code": "675",
+        "title": "Ganit Prakash",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "686",
+        "title": "Kaushal Bodh",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Vocational Education"
+    }
+]

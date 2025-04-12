@@ -1,0 +1,239 @@
+/* Footer styles for StudyUpIndia
+   Extracted from main stylesheet */
+
+/* CSS Variables */
+:root {
+    /* Primary Colors */
+    --primary-color: #0a2d80;
+    /* Deep Blue - adjusted to match screenshot */
+    --primary-light: #757de8;
+    --primary-dark: #002984;
+
+    /* Secondary Colors */
+    --secondary-color: #ffa500;
+    /* Orange */
+    --secondary-light: #ffd64a;
+    --secondary-dark: #c67600;
+
+    /* Text Colors */
+    --text-dark: #333333;
+    --text-light: #ffffff;
+    --text-muted: #777777;
+
+    /* Background Colors */
+    --bg-light: #f8f8f8;
+    --bg-white: #ffffff;
+    --bg-light-blue: #eef1f9;
+    /* Adjusted to match screenshot */
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+
+    /* Border Radius */
+    --border-radius-sm: 5px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 15px;
+    --border-radius-xl: 20px;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}
+
+/* Base Styles */
+.footer * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: var(--transition-fast);
+    color: inherit;
+}
+
+.footer button {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.footer button:focus {
+    outline: none;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+    padding-top: var(--spacing-lg);
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--primary-color));
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff !important;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.footer-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+
+.footer-section p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.8rem;
+    transition: transform var(--transition-fast);
+}
+
+.footer-section ul li:hover {
+    transform: translateX(5px);
+}
+
+.footer-section ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color var(--transition-fast);
+    display: block;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all var(--transition-normal);
+}
+
+.social-icons a:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0;
+}
+
+/* Responsive Design for Footer */
+@media screen and (max-width: 992px) {
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-section {
+        flex: 100%;
+    }
+
+    .social-icons {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Accessibility Enhancements */
+@media (prefers-reduced-motion: reduce) {
+
+    .social-icons a,
+    .footer-section ul li {
+        transition: none !important;
+        transform: none !important;
+    }
+}
+
+@media (prefers-contrast: more) {
+
+    .footer-section p,
+    .footer-section ul li a,
+    .footer-bottom p {
+        opacity: 1;
+        color: white;
+    }
+}

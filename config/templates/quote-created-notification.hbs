@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>New Quote for Order #{{orderId}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .header {
+            background-color: #3f51b5;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+            background: #f9f9f9;
+        }
+
+        .quote-details {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3f51b5;
+            color: #fff !important;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Quote Created</h2>
+    </div>
+    <div class="content">
+        <p>Hi {{buyerName}},</p>
+
+        <p>
+            A new quote has been shared by <strong>{{sellerName}}</strong> for
+            your order <strong>#{{orderId}}</strong>.
+        </p>
+
+        <div class="quote-details">
+            <p><strong>Total Price:</strong> ₹{{totalPrice}}</p>
+            <p><strong>Discount:</strong> {{discountPercentage}}%</p>
+            <p><strong>Delivery Charges:</strong> ₹{{deliveryCharges}}</p>
+            <p><strong>Handling Charges:</strong> ₹{{handlingCharges}}</p>
+            <p><strong>Final Amount:</strong> ₹{{finalTotal}}</p>
+        </div>
+
+        <p><strong>Seller’s Message:</strong></p>
+        <blockquote>{{sellerMessage}}</blockquote>
+
+        <a class="button" href="{{dashboardLink}}">View Order in Dashboard</a>
+
+        <p>Thank you for using {{companyName}}.</p>
+
+        <div class="footer">
+            <p>
+                &copy; {{currentYear}} {{companyName}}. For help, contact
+                <a href="mailto:{{supportEmail}}">{{supportEmail}}</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

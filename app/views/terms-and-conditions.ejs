@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - StudyUpIndia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/terms-and-conditions.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#publications">Publications</a>
+          <a href="/contact">Contact</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %> <% if (user && user.role == 'seller') { %>
+          <a href="/seller-dashboard">Dashboard</a>
+          <% } %> <% if (user && user.role == 'buyer') { %>
+          <a href="/order-history">Dashboard</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/">Home</a>
+        <a href="/#publications">Publications</a>
+        <a href="/contact">Contact</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </div>
+    </section>
+
+    <div class="container">
+      <h1 class="page-title">Terms & Conditions</h1>
+
+      <p>
+        Welcome to StudyUpIndia. These terms and conditions outline the rules
+        and regulations for the use of our website and services. By accessing
+        this website, we assume you accept these terms in full. Do not continue
+        to use StudyUpIndia's website if you do not accept all the terms stated
+        on this page.
+      </p>
+
+      <h2>1. Use of the Website</h2>
+      <p>
+        You agree to use the website only for lawful purposes and in a way that
+        does not infringe the rights of others or restrict their use and
+        enjoyment of the site.
+      </p>
+
+      <h2>2. Product & Pricing Information</h2>
+      <p>
+        We strive to ensure that all product and pricing information is accurate
+        and up-to-date. However, errors may occur. We reserve the right to
+        correct any errors and update information at any time without prior
+        notice.
+      </p>
+
+      <h2>3. Order Acceptance & Cancellation</h2>
+      <p>
+        All orders placed through the website are subject to availability and
+        our acceptance. We reserve the right to cancel any order due to product
+        unavailability, pricing errors, or issues with payment authorization.
+      </p>
+
+      <p>
+        If you cancel an order after procurement but before shipping, a
+        restocking fee may be charged. Refunds (after applicable deductions)
+        will be processed within 5 working days.
+      </p>
+
+      <h2>4. Payment</h2>
+      <p>
+        All payments on StudyUpIndia are processed securely through trusted
+        third-party payment gateways. We do not store your payment details.
+      </p>
+
+      <h2>5. Intellectual Property</h2>
+      <p>
+        All content on this website, including text, graphics, logos, and
+        images, is the property of StudyUpIndia and is protected by applicable
+        copyright and trademark laws.
+      </p>
+
+      <h2>6. Limitation of Liability</h2>
+      <p>
+        StudyUpIndia shall not be liable for any indirect, incidental, special,
+        or consequential damages arising out of the use or inability to use the
+        services or content provided.
+      </p>
+
+      <h2>7. Links to Other Websites</h2>
+      <p>
+        Our website may contain links to third-party websites. These are
+        provided for your convenience, and we are not responsible for the
+        content or privacy practices of such websites.
+      </p>
+
+      <h2>8. Changes to Terms</h2>
+      <p>
+        We reserve the right to modify these terms at any time. Updated terms
+        will be posted on this page, and continued use of the site implies
+        acceptance of those changes.
+      </p>
+
+      <h2>9. Governing Law</h2>
+      <p>
+        These terms are governed by and construed in accordance with the laws of
+        India. Any disputes arising shall be subject to the jurisdiction of the
+        courts in Delhi, India.
+      </p>
+
+      <h2>10. Contact Us</h2>
+      <p>
+        If you have any questions or concerns about our Terms and Conditions,
+        please contact us at:
+      </p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:studyupindia1@gmail.com">studyupindia1@gmail.com</a>
+        </li>
+        <li>Phone: +91 9868505044</li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StudyUpIndia</h3>
+          <p>Your trusted source for educational books and materials.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/return-and-refund">Return & Refund Policy</a></li>
+            <li><a href="/shipping-policy">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/studyupindia" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/studyupindia/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@studyupindia" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StudyUp India. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

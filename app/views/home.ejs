@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>StudyUp India- Educational Book Store</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/#publications">Publications</a>
+          <a href="/contact">Contact Us</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %> <% if (user && user.role == 'seller') { %>
+          <a href="/seller-dashboard">Dashboard</a>
+          <% } %> <% if (user && user.role == 'buyer') { %>
+          <a href="/order-history">Dashboard</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/#publications">Publications</a>
+        <a href="/contact">Contact Us</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <!-- <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Your Learning Journey Starts Here</h1>
+        <p>Access quality educational books from leading publishers in India</p>
+        <a href="#publications" class="cta-button">Explore Publications</a>
+      </div>
+    </section> -->
+
+    <section id="home">
+      <div class="carousel-wrapper">
+        <div class="carousel-slide active">
+          <img src="/image/hero-banner-1.jpg" alt="Banner 1" />
+        </div>
+        <div class="carousel-slide">
+          <img src="/image/hero-banner-2.jpg" alt="Banner 2" />
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications-section">
+      <div class="section-header">
+        <h2>Browse by Publication</h2>
+        <p>Choose from our extensive collection of educational materials</p>
+      </div>
+
+      <div class="publications-grid">
+        <!-- Publication Cards -->
+        <a
+          href="<%= user && user.role === 'seller' ? 'javascript:void(0)' : '/publication/ncert' %>"
+          class="publication-card"
+        >
+          <div class="publication-icon">
+            <img src="/image/ncert.png" alt="NCERT Logo" />
+          </div>
+          <h3>NCERT</h3>
+          <p>National Council of Educational Research and Training</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="section-header">
+        <h2>Why Choose StudyUp?</h2>
+        <p>
+          Offering the best educational resources for students and educators
+        </p>
+      </div>
+
+      <div class="features-container">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3>Extensive Collection</h3>
+          <p>Access to all major educational publications in India</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>Bulk Ordering</h3>
+          <p>Special pricing for schools and educational institutions</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Authentic Materials</h3>
+          <p>Guaranteed original books from official publishers</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Dedicated Support</h3>
+          <p>Customer service team for all your queries</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <!-- <div class="about-image">
+          <img src="/images/about-image.jpg" alt="About StudyUp" />
+        </div> -->
+        <div class="about-content">
+          <h2>About StudyUp</h2>
+          <p>
+            StudyUp is a dedicated platform providing educational books and
+            resources to students, teachers, and institutions across India. We
+            specialize in bulk orders for schools and educational organizations.
+          </p>
+          <p>
+            Our mission is to make quality educational materials accessible to
+            everyone, supporting learning journeys from primary education to
+            higher academics.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StudyUpIndia</h3>
+          <p>Your trusted source for educational books and materials.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/return-and-refund">Return & Refund Policy</a></li>
+            <li><a href="/shipping-policy">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/studyupindia" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/studyupindia/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@studyupindia" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StudyUp India. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="/js/toggle.js"></script>
+    <script src="/js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "//": "Nodemon configuration file",
+  "watch": ["."],
+  "ext": "js,json,ejs,css,hbs",
+  "//": ["*.test.js", "node_modules"],
+  "ignore": ["**/*.test.js", "node_modules"],
+  "exec": "npx babel-node server.js"
+}

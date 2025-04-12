@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - StudyUpIndia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/privacy-policy.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#publications">Publications</a>
+          <a href="/contact">Contact</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %> <% if (user && user.role == 'seller') { %>
+          <a href="/seller-dashboard">Dashboard</a>
+          <% } %> <% if (user && user.role == 'buyer') { %>
+          <a href="/order-history">Dashboard</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/">Home</a>
+        <a href="/#publications">Publications</a>
+        <a href="/contact">Contact</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </div>
+    </section>
+
+    <div class="container">
+      <h1 class="page-title">Privacy Policy</h1>
+
+      <p>
+        At StudyUpIndia, we are committed to protecting the privacy and personal
+        information of our users. This Privacy Policy outlines how we collect,
+        use, disclose, and safeguard your information when you visit our website
+        or make use of our services.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <p>We may collect the following types of personal information:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>Billing and shipping addresses</li>
+        <li>Payment details (processed securely via third-party providers)</li>
+        <li>IP address and browser/device data</li>
+      </ul>
+
+      <h2>2. How We Use Your Information</h2>
+      <p>Your personal information is used to:</p>
+      <ul>
+        <li>Fulfill and manage your orders</li>
+        <li>Respond to your inquiries and customer service requests</li>
+        <li>Send transactional and promotional emails</li>
+        <li>Improve our website and services</li>
+        <li>Comply with legal obligations</li>
+      </ul>
+
+      <h2>3. Sharing of Your Information</h2>
+      <p>
+        We do not sell your personal information. We may share your data with:
+      </p>
+      <ul>
+        <li>Payment processors (e.g., Razorpay)</li>
+        <li>Delivery partners to fulfill your order</li>
+        <li>Third-party vendors who help us operate our website</li>
+      </ul>
+
+      <h2>4. Cookies and Tracking</h2>
+      <p>
+        We use cookies to improve user experience, analyze site traffic, and
+        personalize content. You can manage cookie preferences through your
+        browser settings.
+      </p>
+
+      <h2>5. Data Security</h2>
+      <p>
+        We implement appropriate technical and organizational measures to
+        protect your data. However, no online transmission is 100% secure.
+      </p>
+
+      <h2>6. Your Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access, correct, or delete your personal information</li>
+        <li>Withdraw consent for marketing communication</li>
+        <li>Request data portability where applicable</li>
+      </ul>
+
+      <h2>7. Changes to This Policy</h2>
+      <p>
+        We may update this policy from time to time. Changes will be posted on
+        this page with the updated revision date.
+      </p>
+
+      <h2>8. Contact Us</h2>
+      <p>
+        If you have any questions or concerns about this Privacy Policy, please
+        contact us at:
+      </p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:studyupindia1@gmail.com">studyupindia1@gmail.com</a>
+        </li>
+        <li>Phone: +91 9868505044</li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StudyUpIndia</h3>
+          <p>Your trusted source for educational books and materials.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/return-and-refund">Return & Refund Policy</a></li>
+            <li><a href="/shipping-policy">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/studyupindia" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/studyupindia/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@studyupindia" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StudyUp India. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

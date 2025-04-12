@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/how-to-order.css" />
+    <link rel="stylesheet" href="/css/publication.css" />
+    <link rel="stylesheet" href="/css/order-confirmation-modal.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <title><%= title %></title>
+  </head>
+  <body
+    data-cart-key="<%= cartKey %>"
+    data-cart-publication="<%= cartPublication %>"
+  >
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">StudyUpIndia</div>
+      <nav class="nav-links">
+        <a href="/" class="active">Home</a>
+        <a href="/#publications">Publications</a>
+        <!-- <a href="#about">About</a> -->
+        <!-- <a href="#contact">Contact</a> -->
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <button class="close-btn" id="menu-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="/">Home</a>
+      <a href="/#publications">Publications</a>
+      <!-- <a href="#about">About</a> -->
+      <!-- <a href="#contact">Contact</a> -->
+      <% if (!user) { %>
+      <a href="/buyer/signin">Login</a>
+      <a href="/seller/signin">Seller ?</a>
+      <% } %> <% if (user && user.role == 'seller') { %>
+      <a href="/seller-dashboard">Dashboard</a>
+      <% } %> <% if (user && user.role == 'buyer') { %>
+      <a href="/order-history">Dashboard</a>
+      <% } %>
+    </div>
+
+    <!-- Publication Header - Redesigned -->
+    <div class="publication-header">
+      <div class="container">
+        <div class="publication-info">
+          <div class="publication-brand">
+            <% if (cartPublication === "NCERT") { %>
+              <img class="publication-logo" src="/image/ncert.png" alt="NCERT Logo" />
+            <% } else { %>
+              <img class="publication-logo" src="/images/default.png" alt="Publication Logo" />
+            <% } %>
+            <h1><%= cartPublication %> Books</h1>
+          </div>
+          
+          <!-- How to Order Button moved to header for better visibility -->
+          <div class="how-to-order-container">
+            <button id="how-to-order-btn" class="info-button">
+              <i class="fas fa-info-circle"></i> How to Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How to Order Popover -->
+    <div id="how-to-order-popover" class="how-to-order-popover">
+      <div class="popover-header">
+        <h3 id="popover-title">Order Placement Guide</h3>
+        <button class="close-popover"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="popover-content">
+        <ul class="steps-list">
+          <!-- <li><span class="step-number">1</span> Browse and select books from the catalog</li> -->
+          <li><span class="step-number">1</span> Add books to your cart and update quantity</li>
+          <li><span class="step-number">2</span> Ensure your order total is at least ₹10,000</li>
+          <li><span class="step-number">3</span> Click "Proceed to Checkout" to submit your request</li>
+          <li><span class="step-number">4</span> Seller will review your request and send you a quote</li>
+          <li><span class="step-number">5</span> Review and accept the quote to finalize your order</li>
+          <li><span class="step-number">6</span> Complete payment through the provided payment link</li>
+        </ul>
+        <p class="note"><i class="fas fa-exclamation-circle"></i> Note: Delivery charges and handling fees may be added in the quote shared by the seller as applicable.</p>
+      </div>
+    </div>
+
+    <!-- Book Listing Section -->
+    <section class="books-section">
+      <div class="container">
+        <!-- Desktop Filters -->
+        <div class="filters-container-wrapper">
+          <div class="filters-container">
+            <select id="type-filter" class="filter-select">
+              <option value="">All Types</option>
+              <option value="textbook">Textbook</option>
+              <option value="novel">Novel</option>
+              <option value="magazine">Magazine</option>
+              <option value="comic">Comic</option>
+              <option value="competitive">Competitive</option>
+              <option value="other">Other</option>
+            </select>
+
+            <select id="subject-filter" class="filter-select">
+              <option value="">All Subjects</option>
+              <option value="Science">Science</option>
+              <option value="General">General</option>
+              <option value="Mathematics">Mathematics</option>
+              <option value="English">English</option>
+              <option value="Hindi">Hindi</option>
+              <option value="Social Studies">Social Studies</option>
+            </select>
+
+            <select id="language-filter" class="filter-select">
+              <option value="">All Languages</option>
+              <option value="english">English</option>
+              <option value="hindi">Hindi</option>
+              <option value="sanskrit">Sanskrit</option>
+              <option value="other">Other</option>
+            </select>
+
+            <select id="class-filter" class="filter-select">
+              <option value="">All Classes</option>
+              <option value="1">Class 1</option>
+              <option value="2">Class 2</option>
+              <option value="3">Class 3</option>
+              <option value="4">Class 4</option>
+              <option value="5">Class 5</option>
+              <option value="6">Class 6</option>
+              <option value="7">Class 7</option>
+              <option value="8">Class 8</option>
+              <option value="9">Class 9</option>
+              <option value="10">Class 10</option>
+              <option value="11">Class 11</option>
+              <option value="12">Class 12</option>
+              <option value="other">Other</option>
+            </select>
+
+            <div class="search-container">
+              <input
+                type="text"
+                id="search-bar"
+                placeholder="Search by title or code"
+              />
+              <button class="search-icon">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+
+            <button id="reset-filters" class="reset-button">
+              <i class="fas fa-redo"></i> Reset
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Accordion Filters -->
+        <div class="accordion">
+          <button class="accordion-button">
+            <span class="accordion-label">Filter Books</span>
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </button>
+          <div class="accordion-content">
+            <!-- Filters will be moved here by JS -->
+          </div>
+        </div>
+
+        <!-- Results Count -->
+        <div class="results-info">
+          <span id="results-count">Showing all books</span>
+          <div class="view-toggle">
+            <button id="table-view-btn" class="view-btn active" aria-label="Table view">
+              <i class="fas fa-table"></i>
+            </button>
+            <button id="grid-view-btn" class="view-btn" aria-label="Grid view">
+              <i class="fas fa-th-large"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Table View (Default) - Optimized for mobile -->
+        <div id="table-view" class="book-table-container">
+          <table class="book-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Title</th>
+                <th>Class</th>
+                <th>Subject</th>
+                <th>Price</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="product-list">
+              <!-- Products will be populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Grid View (Alternative) -->
+        <div id="grid-view" class="book-grid-container hidden">
+          <div id="product-grid" class="book-grid">
+            <!-- Products will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cart -->
+    <div id="shopping-cart" class="shopping-cart">
+      <div class="cart-header">
+        <span id="cart-total">Total: ₹0</span>
+        <button id="toggle-cart" class="toggle-button">
+          <i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span>
+        </button>
+      </div>
+
+      <div class="cart-body hidden">
+        <div class="cart-items-container">
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Book</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="cart-items">
+              <!-- Cart items will be populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="cart-footer">
+          <div class="cart-summary">
+            <div class="summary-item">
+              <span>Subtotal:</span>
+              <span id="items-subtotal">₹0.00</span>
+            </div>
+            <div class="summary-item">
+              <span>Items:</span>
+              <span id="items-count">0</span>
+            </div>
+            <div class="summary-item delivery-note">
+              <span>*Delivery/Handling Charges will be included in seller's quote</span>
+            </div>
+            <div class="summary-item">
+              <span>Total:</span>
+              <span id="expanded-total">₹0.00</span>
+            </div>
+            <div class="summary-note">
+              <small>Minimum order value: ₹10,000</small>
+            </div>
+          </div>
+
+          <div class="cart-actions">
+            <button id="checkout-button" class="checkout-button" disabled>
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Float button for quick filter access -->
+    <div id="filter-float-btn" class="filter-float-btn">
+      <i class="fas fa-filter"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/how-to-order.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/filter.js"></script>
+    <script src="/js/toggle.js"></script>
+    <script src="/js/order-confirmation-modal.js"></script>
+  </body>
+</html>

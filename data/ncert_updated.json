@@ -1,0 +1,2692 @@
+[
+    {
+        "code": "0117",
+        "title": "RIMJHIM CL-I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0118",
+        "title": "Marigold CL-I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0119",
+        "title": "MATH CL-I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0120",
+        "title": "GANIT KA JADU PUSTAK I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0122",
+        "title": "SARANGI CL - I (RIMJHIM)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0123",
+        "title": "MRIDANG CL - I (MARIGOLD)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0124",
+        "title": "JOYFUL MATHEMATICS CL-I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0217",
+        "title": "RIMJHIM CL-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0218",
+        "title": "MARIGOLD CL-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0219",
+        "title": "MATH CL-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0220",
+        "title": "GANIT CL-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0222",
+        "title": "SARANGI CL - II (RIMJHIM)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0223",
+        "title": "MRIDANG CL - II (MARIGOLD)",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0224",
+        "title": "JOYFUL MATHEMATICS CL-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0323",
+        "title": "RIMJHIM CL-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0324",
+        "title": "Marigold Cl-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0325",
+        "title": "MATH CL-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0326",
+        "title": "GANIT CL-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0327",
+        "title": "LOOKING AROUND CL-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0328",
+        "title": "AAS PASS CL-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0423",
+        "title": "RIMJHIM CL-IV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0424",
+        "title": "MARIGOLD CL-IV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0425",
+        "title": "Math Cl-IV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0426",
+        "title": "GANIT CLASS-IV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "4",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0427",
+        "title": "LOOKING AROUND CL-IV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "4",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0428",
+        "title": "AAS PASS CLASS-IV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "4",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0525",
+        "title": "RIMJHIM CL-V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0526",
+        "title": "Marigold Cl-V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "5",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0527",
+        "title": "MATH CL-V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0528",
+        "title": "GANIT CLASS-V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "5",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0529",
+        "title": "LOOKING AROUND CL-V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "5",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0530",
+        "title": "AAS PASS CLASS-V",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "5",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0644",
+        "title": "VASANT CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0645",
+        "title": "RAM KATHA CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 60.0,
+        "subject": "General"
+    },
+    {
+        "code": "0646",
+        "title": "DURVA CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0647",
+        "title": "Honey Suckle Class-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0648",
+        "title": "A PACT WITH THE SUN CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 35.0,
+        "subject": "General"
+    },
+    {
+        "code": "0649",
+        "title": "RUCHIRA CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0650",
+        "title": "Math Class-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0651",
+        "title": "GANIT CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0652",
+        "title": "Science Cl-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0653",
+        "title": "Vigyan Class-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0654",
+        "title": "OUR PAST CL-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0655",
+        "title": "HAMARA ATIT CLASS-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0656",
+        "title": "THE EARTH OUR HABITATECL-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 55.0,
+        "subject": "Art"
+    },
+    {
+        "code": "0657",
+        "title": "PRITHVI HAMARA AVAAS CL-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 55.0,
+        "subject": "General"
+    },
+    {
+        "code": "0658",
+        "title": "SOCIAL & POLTICAL LIFE VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "0659",
+        "title": "SAMAJIK R RAJNITI JEEVAN CL-VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Biology"
+    },
+    {
+        "code": "0750",
+        "title": "Vasant Cl-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0751",
+        "title": "BAL MAHABHARAT CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0752",
+        "title": "DURVA CLASS-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0753",
+        "title": "HONEY COMB CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0754",
+        "title": "AN ALIEN HAND CLASS-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 40.0,
+        "subject": "General"
+    },
+    {
+        "code": "0755",
+        "title": "RUCHIRA CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0756",
+        "title": "Math Class-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0757",
+        "title": "GANIT CLASS-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0758",
+        "title": "SCIENCE CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0759",
+        "title": "VIGYAN CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0760",
+        "title": "Our Past Class-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0761",
+        "title": "Hamara Atit Class-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0762",
+        "title": "Our Environment Cl-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0763",
+        "title": "HAMARA PARYAVARAN CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0764",
+        "title": "SOCIAL & POL. LIFE CL-VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "0765",
+        "title": "SAMAJIK AUR RAJN.JEEVAN VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Biology"
+    },
+    {
+        "code": "0822",
+        "title": "SANSKHIPTA BUDHACHARITRA",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 50.0,
+        "subject": "General"
+    },
+    {
+        "code": "0846",
+        "title": "Vasant Class-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0847",
+        "title": "BHARAT KI KHOJ CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0848",
+        "title": "DURVA CLASS-VIIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0849",
+        "title": "HONEY DEW CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "English"
+    },
+    {
+        "code": "0850",
+        "title": "IT SO HAPPENED CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 55.0,
+        "subject": "General"
+    },
+    {
+        "code": "0851",
+        "title": "Ruchira Class-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0852",
+        "title": "Math Class-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0853",
+        "title": "GANIT CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0854",
+        "title": "SCIENCE CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0855",
+        "title": "VIGYAN CL-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0858",
+        "title": "RESOURSE AND DEV. CL-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 60.0,
+        "subject": "General"
+    },
+    {
+        "code": "0859",
+        "title": "SANSADHAN AVAM VIKAS CL-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 60.0,
+        "subject": "General"
+    },
+    {
+        "code": "0860",
+        "title": "SOCIAL AND POLIT. CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "0861",
+        "title": "SAMAJIK AUR RAJNITI CLASS-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "8",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0864",
+        "title": "Our Past Class VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0865",
+        "title": "HAMARE ATIT - III CL-VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "3",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0955",
+        "title": "KSHITIJ CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 60.0,
+        "subject": "General"
+    },
+    {
+        "code": "0956",
+        "title": "KRITIKA CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 30.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0957",
+        "title": "SPARSH CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 50.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0958",
+        "title": "SANCHAYAN CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 30.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0959",
+        "title": "BEEHIVE CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 80.0,
+        "subject": "General"
+    },
+    {
+        "code": "0960",
+        "title": "MOMENT CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 45.0,
+        "subject": "General"
+    },
+    {
+        "code": "0961",
+        "title": "SHEMUSI CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 55.0,
+        "subject": "General"
+    },
+    {
+        "code": "0962",
+        "title": "MATH CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 155.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0963",
+        "title": "GANIT CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 155.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "0964",
+        "title": "SCIENCE CLASS -IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 150.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0965",
+        "title": "VIGYAN CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 150.0,
+        "subject": "Science"
+    },
+    {
+        "code": "0966",
+        "title": "INDIA & CONT. WORLD CL-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 115.0,
+        "subject": "General"
+    },
+    {
+        "code": "0967",
+        "title": "BHARAT R SAM. VIS. IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 115.0,
+        "subject": "General"
+    },
+    {
+        "code": "0968",
+        "title": "CONTEMPORARY INDIA CL-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "0969",
+        "title": "SAMKALIN BHARAT CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 55.0,
+        "subject": "General"
+    },
+    {
+        "code": "0970",
+        "title": "ECONOMICS CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 60.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "0971",
+        "title": "ARTHSHASTRA CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 50.0,
+        "subject": "Art"
+    },
+    {
+        "code": "0972",
+        "title": "DEMOCRATIC POLITICS CL-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 90.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "0973",
+        "title": "LOKTANTRIK RAJNITI CLASS-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 80.0,
+        "subject": "General"
+    },
+    {
+        "code": "0974",
+        "title": "VYAKARAN VIDHI CL IX-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "9",
+        "price": 105.0,
+        "subject": "General"
+    },
+    {
+        "code": "0975",
+        "title": "SANSKRIT ABHYASPUSTIKA CL- IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "9",
+        "price": 110.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "0976",
+        "title": "WORDS AND EXP. I CL IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 120.0,
+        "subject": "General"
+    },
+    {
+        "code": "0977",
+        "title": "Information And Communication Techn140",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 20.0,
+        "subject": "General"
+    },
+    {
+        "code": "1055",
+        "title": "KSHITIJ CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 70.0,
+        "subject": "General"
+    },
+    {
+        "code": "1056",
+        "title": "KRITIKA CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 35.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1057",
+        "title": "SPARSH CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 80.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1058",
+        "title": "SANCHAYAN CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 40.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "1059",
+        "title": "FIRST FLIGHT CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 90.0,
+        "subject": "General"
+    },
+    {
+        "code": "1060",
+        "title": "FOOTPRINTS WITHOUT FEET CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 50.0,
+        "subject": "General"
+    },
+    {
+        "code": "1061",
+        "title": "SHEMUSI CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 60.0,
+        "subject": "General"
+    },
+    {
+        "code": "1062",
+        "title": "MATH CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 160.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1063",
+        "title": "GANIT CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 160.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1064",
+        "title": "SCIENCE CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 195.0,
+        "subject": "Science"
+    },
+    {
+        "code": "1065",
+        "title": "VIGYAN CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 190.0,
+        "subject": "Science"
+    },
+    {
+        "code": "1066",
+        "title": "INDIA & CONTEM.WORLD CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 125.0,
+        "subject": "General"
+    },
+    {
+        "code": "1067",
+        "title": "BHARAT R SAMKALIN VISHWA CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 125.0,
+        "subject": "General"
+    },
+    {
+        "code": "1068",
+        "title": "CONTEMPORARY INDIA CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 90.0,
+        "subject": "General"
+    },
+    {
+        "code": "1069",
+        "title": "SAMKALIN BHARAT CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 75.0,
+        "subject": "General"
+    },
+    {
+        "code": "1070",
+        "title": "ECONOMIC DEVELOPMENT CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 90.0,
+        "subject": "General"
+    },
+    {
+        "code": "1071",
+        "title": "ARTHIK VIKAS KI SAMAJH CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 75.0,
+        "subject": "Art"
+    },
+    {
+        "code": "1072",
+        "title": "DEMOCRATIC POLITICS CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 90.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "1073",
+        "title": "LOKTANTRIK RAJNITI CLASS-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "10",
+        "price": 90.0,
+        "subject": "General"
+    },
+    {
+        "code": "1075",
+        "title": "ABHYASWANBHAV",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 100.0,
+        "subject": "General"
+    },
+    {
+        "code": "1076",
+        "title": "WORDS AND EXP. II CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 135.0,
+        "subject": "General"
+    },
+    {
+        "code": "1077",
+        "title": "HEALTH & PHY. EDUCATION CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 170.0,
+        "subject": "Health & Physical Education"
+    },
+    {
+        "code": "1324",
+        "title": "MATH EXAMPLER VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1326",
+        "title": "MATH EXAMPLER VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1328",
+        "title": "MATH EXAMPLER CL VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1333",
+        "title": "BIOLOGY EXAMPLER CL - XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 160.0,
+        "subject": "Biology"
+    },
+    {
+        "code": "1340",
+        "title": "PHYSICS EXAMPLER CL- XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 215.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "1566",
+        "title": "SCIENCE EXAMPLER CL-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 215.0,
+        "subject": "Science"
+    },
+    {
+        "code": "1568",
+        "title": "MATH EXAMPLER CL-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 100.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1570",
+        "title": "PHYSICS EXAMPLER CL- XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 145.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "1572",
+        "title": "CHEMISTRY EXAMPLER CL XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 150.0,
+        "subject": "Chemistry"
+    },
+    {
+        "code": "1574",
+        "title": "MATH EXAMPLER CL - XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 160.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "1576",
+        "title": "BIOLOGY EXAMPLER CLASS XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 145.0,
+        "subject": "Biology"
+    },
+    {
+        "code": "11066",
+        "title": "AROH CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 80.0,
+        "subject": "General"
+    },
+    {
+        "code": "11067",
+        "title": "VITAN CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 45.0,
+        "subject": "General"
+    },
+    {
+        "code": "11069",
+        "title": "ANTARA CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 70.0,
+        "subject": "General"
+    },
+    {
+        "code": "11070",
+        "title": "ANTARAL CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 40.0,
+        "subject": "General"
+    },
+    {
+        "code": "11071",
+        "title": "ABHIVYAKTI R MADH.CL-XI,XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 200.0,
+        "subject": "General"
+    },
+    {
+        "code": "11072",
+        "title": "HORNBILL- CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "11073",
+        "title": "SNAPSHOT -CLASS -XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 45.0,
+        "subject": "General"
+    },
+    {
+        "code": "11074",
+        "title": "WOWEN WORDS - ENG.LIT.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 95.0,
+        "subject": "General"
+    },
+    {
+        "code": "11075",
+        "title": "SANSKRIT - BHASWATI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "other",
+        "price": 60.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "11076",
+        "title": "MATHMATICS CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 210.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "11078",
+        "title": "GANIT CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 210.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "11080",
+        "title": "BIOLOGY",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 230.0,
+        "subject": "Biology"
+    },
+    {
+        "code": "11081",
+        "title": "JEEV VIGYAN",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 230.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11082",
+        "title": "CHEMISTRY PART-I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 215.0,
+        "subject": "Chemistry"
+    },
+    {
+        "code": "11083",
+        "title": "CHEMISTRY PART-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 120.0,
+        "subject": "Chemistry"
+    },
+    {
+        "code": "11085",
+        "title": "RASYAN VIGYAN BHAG-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 120.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11086",
+        "title": "PHYSICS PART-I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 150.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "11087",
+        "title": "PHYSICS PART-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 135.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "11088",
+        "title": "BHAUTIKI BHAG -I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 150.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "11089",
+        "title": "BHAUTIKI BHAG-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 120.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "11090",
+        "title": "THEME OF WORLD HISTORY",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 180.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "11091",
+        "title": "VISHVA ITHIAS KE KUCH VISHAY",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 180.0,
+        "subject": "General"
+    },
+    {
+        "code": "11092",
+        "title": "FUNDAMENTAL GEO. CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 110.0,
+        "subject": "General"
+    },
+    {
+        "code": "11093",
+        "title": "BHAUTIK BHUGOL KE MOOL SIDHANT90",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 20.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11094",
+        "title": "INDIA PHY.ENVIOURNMENT",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 70.0,
+        "subject": "General"
+    },
+    {
+        "code": "11095",
+        "title": "BHARAT BHAUTIK PARYAVARAN",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 70.0,
+        "subject": "General"
+    },
+    {
+        "code": "11096",
+        "title": "PRACT. WORK IN GEOGRAPHY",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 100.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11097",
+        "title": "BHUGOL MEIN PRO.KARYA CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 95.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "11098",
+        "title": "ECO STATISTICS CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 80.0,
+        "subject": "General"
+    },
+    {
+        "code": "11099",
+        "title": "ARTHSHASTRA MEIN SANKHIKI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 65.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11100",
+        "title": "INDIAN ECO.DEV. CLS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 105.0,
+        "subject": "General"
+    },
+    {
+        "code": "11101",
+        "title": "BHARTIYA ARTH. KA VIKAS CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 100.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11102",
+        "title": "INDIAN CONST.AT WORK CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 145.0,
+        "subject": "General"
+    },
+    {
+        "code": "11103",
+        "title": "BHARTIYA SANVIDHAN CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 145.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11104",
+        "title": "SOCIOLOGY PART-I CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 65.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11105",
+        "title": "SMAJSHASTRA BHAG-I CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 50.0,
+        "subject": "General"
+    },
+    {
+        "code": "11106",
+        "title": "UNDER. SOCIETY PART-II CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 50.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11107",
+        "title": "SAMAJ KA BODH-I CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 50.0,
+        "subject": "General"
+    },
+    {
+        "code": "11108",
+        "title": "BUSINESS STUDIES CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 135.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "11109",
+        "title": "VYAVASAYIK ADHYAYAN CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 135.0,
+        "subject": "General"
+    },
+    {
+        "code": "11110",
+        "title": "ACCOUNTS PART-I CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 135.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "11111",
+        "title": "LEKHASHASTRA PART-I CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 135.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11112",
+        "title": "ACCOUNTS PART-II CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 110.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "11113",
+        "title": "LEKHASHASTRA BHAG-II CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 110.0,
+        "subject": "General"
+    },
+    {
+        "code": "11114",
+        "title": "PSYCHOLOGY CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 140.0,
+        "subject": "Psychology"
+    },
+    {
+        "code": "11115",
+        "title": "MANOVIGYAN KA PARI.CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "11",
+        "price": 130.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11116",
+        "title": "SANSKRIT - SHASWATI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "other",
+        "price": 65.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "11117",
+        "title": "POL.THEORY PART-II CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 100.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11118",
+        "title": "RAJNITI SIDDHANT BHAG-II CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 100.0,
+        "subject": "General"
+    },
+    {
+        "code": "11120",
+        "title": "COMPUTER SCIENCE CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 195.0,
+        "subject": "Science"
+    },
+    {
+        "code": "11131",
+        "title": "COMPUTER & COMM.TECH PART-I CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 140.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11136",
+        "title": "HUMAN ECOLOGY PART-I CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 165.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11137",
+        "title": "HUMAN ECOLOGY PART-II CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 115.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11138",
+        "title": "BHARTIYA HASTKALA KI PRAM.CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 120.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11139",
+        "title": "COMPUTER COMM.TECH.PART-II CL-XI150",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 10.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11144",
+        "title": "INTROD.TO INDIAN ART CLASS-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 130.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11149",
+        "title": "INFORMATICS PRACTICES CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 140.0,
+        "subject": "General"
+    },
+    {
+        "code": "11150",
+        "title": "BIOTECHNOLOGY CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 330.0,
+        "subject": "General"
+    },
+    {
+        "code": "11152",
+        "title": "Health & Physical Education XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 195.0,
+        "subject": "Health & Physical Education"
+    },
+    {
+        "code": "12070",
+        "title": "AROH CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 90.0,
+        "subject": "General"
+    },
+    {
+        "code": "12071",
+        "title": "VITAN CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 45.0,
+        "subject": "General"
+    },
+    {
+        "code": "12073",
+        "title": "ANTARAL CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 35.0,
+        "subject": "General"
+    },
+    {
+        "code": "12074",
+        "title": "FLEMINGO CLASS XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 65.0,
+        "subject": "General"
+    },
+    {
+        "code": "12075",
+        "title": "VISTAS CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 50.0,
+        "subject": "General"
+    },
+    {
+        "code": "12077",
+        "title": "SANSKRIT BHASWATI-II CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "2",
+        "price": 55.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "12078",
+        "title": "SANSKRIT SHASWATI-II CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "sanskrit",
+        "class": "2",
+        "price": 90.0,
+        "subject": "Hindi"
+    },
+    {
+        "code": "12079",
+        "title": "MATH-I CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 140.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12080",
+        "title": "MATH-II CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 150.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12081",
+        "title": "GANIT -I CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 130.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12082",
+        "title": "GANIT-II CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 150.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "12083",
+        "title": "BIOLOGY CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 205.0,
+        "subject": "Biology"
+    },
+    {
+        "code": "12084",
+        "title": "JEEV VIGYAN CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 195.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12085",
+        "title": "CHEMISTRY PART-I CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 200.0,
+        "subject": "Chemistry"
+    },
+    {
+        "code": "12086",
+        "title": "CHEMISTRY PART II CL XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 140.0,
+        "subject": "Chemistry"
+    },
+    {
+        "code": "12087",
+        "title": "RASAYAN VIGYAN PART-I CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 200.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12088",
+        "title": "RASAYAN VIGYAN BHAG-II CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "2",
+        "price": 135.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12089",
+        "title": "PHYSICS PART-I CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 195.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "12090",
+        "title": "PHYSICS PART-II CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 125.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "12091",
+        "title": "BHAUTIKI BHAG-I CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 195.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "12092",
+        "title": "BHAUTIKI BHAG-II CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 140.0,
+        "subject": "Physics"
+    },
+    {
+        "code": "12093",
+        "title": "INDIAN HISTORY PART-I XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 115.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12094",
+        "title": "INDIAN HISTORY PART-II XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 115.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12095",
+        "title": "BHARTIYA ITHIAS K KUCH ANSH -I",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 90.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12096",
+        "title": "BHARTIYA ITIHAS K KUCH ANSH-II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 110.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12097",
+        "title": "FUNDAMENTAL OF HUMAN GEO - XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 75.0,
+        "subject": "General"
+    },
+    {
+        "code": "12098",
+        "title": "MANAV BHUGOL KE MOOL SIDHANT",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 75.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12099",
+        "title": "INDIA PEOPLE & ECO. CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 105.0,
+        "subject": "General"
+    },
+    {
+        "code": "12100",
+        "title": "BHARAT-LOG AUR ARTHVAYAVASTHA",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 105.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12101",
+        "title": "PRACT. WORK IN GEOGRAPHY",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 75.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12102",
+        "title": "BHUGOL M PRAYOG.KARYA CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 75.0,
+        "subject": "Geography"
+    },
+    {
+        "code": "12103",
+        "title": "MICROECONOMICS CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 85.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12105",
+        "title": "MACROECONOMICS CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 95.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12106",
+        "title": "SMASTHI ARTHASHASTRA CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 75.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12107",
+        "title": "CONTEMPORARY WORLD POL.",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 115.0,
+        "subject": "General"
+    },
+    {
+        "code": "12108",
+        "title": "SAMKALIN VISHWA RAJNITI XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 115.0,
+        "subject": "General"
+    },
+    {
+        "code": "12109",
+        "title": "SOCIAL CHANGE IN INDIA XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 120.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12110",
+        "title": "BHARAT MEIN SMAJIK PARIVARATAN",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 120.0,
+        "subject": "General"
+    },
+    {
+        "code": "12111",
+        "title": "INDIAN SOCIETY CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 130.0,
+        "subject": "General"
+    },
+    {
+        "code": "12112",
+        "title": "BHARATIYA SAMAJ- SAMAJSHASTRA",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 110.0,
+        "subject": "General"
+    },
+    {
+        "code": "12113",
+        "title": "BUSINESS STUDIES PART-I XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 130.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "12114",
+        "title": "BUSINESS STUDIES PART-II XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 80.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "12115",
+        "title": "VYAVSAYIK ADHYAN PART-I XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 105.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12116",
+        "title": "VYAVSAYIK ADHYAN PART -II",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 80.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12117",
+        "title": "ACCOUNTANCY PART-I CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 110.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "12119",
+        "title": "POLITICS IN INDIA SINCE INDE",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 155.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12120",
+        "title": "LEKHASHASTRA PART-I CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "1",
+        "price": 110.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12121",
+        "title": "LEKHASHASTRA PART-II CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 100.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12122",
+        "title": "SWATANTRA BHARAT MEI RAJNITI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "other",
+        "price": 155.0,
+        "subject": "General"
+    },
+    {
+        "code": "12123",
+        "title": "PSYCHOLOGY CLASS-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 140.0,
+        "subject": "Psychology"
+    },
+    {
+        "code": "12124",
+        "title": "MANOVIGYAN KA PARICHAYA -XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "12",
+        "price": 140.0,
+        "subject": "Science"
+    },
+    {
+        "code": "12125",
+        "title": "INDIAN HISTORY PART-III",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 130.0,
+        "subject": "Social Studies"
+    },
+    {
+        "code": "12126",
+        "title": "BHARTIYA ITHIAS KE ANSH-3",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 130.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12127",
+        "title": "ACCOUNTANCY PART-III CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "3",
+        "price": 180.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "12128",
+        "title": "ACCOUNTANCY PART-II CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 120.0,
+        "subject": "Commerce"
+    },
+    {
+        "code": "12129",
+        "title": "LEKHASHASTRA PART-II CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "2",
+        "price": 120.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12144",
+        "title": "AN INTRO TO INDIAN ART",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "other",
+        "price": 140.0,
+        "subject": "Art"
+    },
+    {
+        "code": "12149",
+        "title": "INFORMATION PRACTICE CL-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 200.0,
+        "subject": "General"
+    },
+    {
+        "code": "13058",
+        "title": "CHEMISTRY EXAMPLER XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 180.0,
+        "subject": "Chemistry"
+    },
+    {
+        "code": "13066",
+        "title": "SCIENCE EXAMPLER VI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "6",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "13068",
+        "title": "SCIENCE EXAMPLER CL VII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "7",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "13070",
+        "title": "SCIENCE EXAMPLER CL VIII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "8",
+        "price": 65.0,
+        "subject": "Science"
+    },
+    {
+        "code": "13149",
+        "title": "HEALTH AND PHY. EDUCATION CL-IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 200.0,
+        "subject": "Health & Physical Education"
+    },
+    {
+        "code": "16070",
+        "title": "SCIENCE EXAMPLER CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 160.0,
+        "subject": "Science"
+    },
+    {
+        "code": "16080",
+        "title": "MATH EXAMPLER CL-X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 155.0,
+        "subject": "Mathematics"
+    },
+    {
+        "code": "17925",
+        "title": "DOMESTIC DATA ENTRY OPERATION IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 180.0,
+        "subject": "General"
+    },
+    {
+        "code": "17974",
+        "title": "EMPLOYABILITY SKILLS CL IX",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "9",
+        "price": 205.0,
+        "subject": "General"
+    },
+    {
+        "code": "171025",
+        "title": "DOMESTIC DATA ENTRY - X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 330.0,
+        "subject": "General"
+    },
+    {
+        "code": "171074",
+        "title": "EMPLOYABILITY SKILLS CL X",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "10",
+        "price": 115.0,
+        "subject": "General"
+    },
+    {
+        "code": "171175",
+        "title": "EMPLOYABILITY SKILLS CL-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "11",
+        "price": 220.0,
+        "subject": "General"
+    },
+    {
+        "code": "12072",
+        "title": "Antara Class-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 95.0,
+        "subject": "General"
+    },
+    {
+        "code": "12104",
+        "title": "Vyasti Arthashastra Class-XII",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "english",
+        "class": "12",
+        "price": 70.0,
+        "subject": "Art"
+    },
+    {
+        "code": "11084",
+        "title": "Rasyan Vigyan Bhag-I Class-XI",
+        "publication": "NCERT",
+        "type": "textbook",
+        "language": "hindi",
+        "class": "1",
+        "price": 180.0,
+        "subject": "Science"
+    }
+]

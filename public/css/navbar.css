@@ -1,0 +1,398 @@
+/* ==============================================
+   NAVBAR STYLES - Completely independent
+   - Variables
+   - Base styling
+   - Desktop navigation
+   - Mobile menu
+   - Responsive behavior
+   - Animations and transitions
+============================================== */
+
+/* Scoped CSS Variables (prefixed with --nav to avoid conflicts) */
+:root {
+    /* Primary Colors */
+    --nav-primary-color: #3f51b5;
+    /* Deep Blue */
+    --nav-primary-light: #757de8;
+    --nav-primary-dark: #002984;
+
+    /* Text Colors */
+    --nav-text-dark: #333333;
+    --nav-text-light: #ffffff;
+
+    /* Background Colors */
+    --nav-bg-white: #ffffff;
+
+    /* Spacing */
+    --nav-spacing-sm: 0.5rem;
+
+    /* Border Radius */
+    --nav-border-radius-sm: 5px;
+
+    /* Shadows */
+    --nav-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --nav-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --nav-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    /* Transitions */
+    --nav-transition-fast: 0.2s ease;
+    --nav-transition-normal: 0.3s ease;
+
+    /* Z-index layers */
+    --nav-z-index: 1000;
+}
+
+/* Base element styling - scoped to navbar elements only */
+.navbar *,
+.mobile-menu *,
+.overlay {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar a,
+.mobile-menu a {
+    text-decoration: none;
+    transition: var(--nav-transition-fast);
+}
+
+.navbar button,
+.mobile-menu button {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.navbar button:focus,
+.mobile-menu button:focus {
+    outline: none;
+}
+
+/* Main Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--nav-bg-white);
+    box-shadow: var(--nav-shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: var(--nav-z-index);
+    transition: padding var(--nav-transition-normal);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--nav-text-dark);
+}
+
+/* Logo styling */
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--nav-primary-color);
+    transition: color var(--nav-transition-fast), transform var(--nav-transition-fast);
+}
+
+.navbar .logo:hover {
+    color: var(--nav-primary-dark);
+    transform: scale(1.03);
+}
+
+/* Desktop Navigation Links */
+.navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links a {
+    color: var(--nav-text-dark);
+    font-weight: 500;
+    transition: color var(--nav-transition-fast);
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
+    color: var(--nav-primary-color);
+}
+
+/* Animated underline for nav links */
+.navbar .nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--nav-primary-color);
+    transition: width var(--nav-transition-normal);
+}
+
+.navbar .nav-links a:hover::after,
+.navbar .nav-links a.active::after {
+    width: 100%;
+}
+
+/* Mobile menu toggle button */
+.navbar .menu-toggle {
+    display: none;
+    background: none;
+    color: var(--nav-text-dark);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--nav-border-radius-sm);
+    transition: color var(--nav-transition-fast), background-color var(--nav-transition-fast);
+}
+
+.navbar .menu-toggle:hover {
+    color: var(--nav-primary-color);
+    background-color: rgba(63, 81, 181, 0.05);
+}
+
+.navbar .menu-toggle:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+}
+
+/* Mobile Menu Slide-in Panel */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: var(--nav-bg-white);
+    padding: 2rem;
+    box-shadow: var(--nav-shadow-lg);
+    transition: right var(--nav-transition-normal);
+    z-index: var(--nav-z-index);
+    overflow-y: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+.mobile-menu a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+    margin-bottom: 0.7rem;
+    color: var(--nav-text-dark);
+    font-weight: 500;
+    transition: color var(--nav-transition-fast), transform var(--nav-transition-fast);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.mobile-menu a:last-child {
+    border-bottom: none;
+}
+
+.mobile-menu a:hover {
+    color: var(--nav-primary-color);
+    transform: translateX(5px);
+}
+
+/* Close button for mobile menu */
+.mobile-menu .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    color: var(--nav-text-dark);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color var(--nav-transition-fast), background-color var(--nav-transition-fast);
+}
+
+.mobile-menu .close-btn:hover {
+    color: var(--nav-primary-color);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Overlay for mobile menu */
+.nav-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: calc(var(--nav-z-index) - 1);
+    opacity: 0;
+    transition: opacity var(--nav-transition-normal);
+    backdrop-filter: blur(2px);
+}
+
+.nav-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Active link indication */
+.mobile-menu a.active {
+    color: var(--nav-primary-color);
+    font-weight: 600;
+    position: relative;
+}
+
+.mobile-menu a.active::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 60%;
+    background-color: var(--nav-primary-color);
+    border-radius: 0 3px 3px 0;
+}
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1200px) {
+    .navbar {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .navbar .nav-links {
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding: 0.8rem 1rem;
+    }
+
+    .navbar .nav-links {
+        gap: 1rem;
+    }
+
+    .navbar .nav-links a {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 0.7rem 1rem;
+    }
+
+    .navbar .logo {
+        font-size: 1.3rem;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .navbar .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 0.6rem 0.8rem;
+    }
+
+    .navbar .logo {
+        font-size: 1.2rem;
+    }
+
+    .mobile-menu {
+        width: 85%;
+        padding: 1.5rem;
+    }
+
+    .mobile-menu a {
+        font-size: 1.1rem;
+        padding: 0.7rem 0;
+    }
+
+    .mobile-menu .close-btn {
+        top: 0.8rem;
+        right: 0.8rem;
+    }
+}
+
+/* Animation keyframes */
+@keyframes nav-fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes nav-slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Enhanced animations for mobile menu */
+.mobile-menu.active {
+    animation: nav-slideInRight 0.3s forwards;
+}
+
+.nav-overlay.active {
+    animation: nav-fadeIn 0.3s forwards;
+}
+
+/* Compact navbar on scroll - Add .compact class with JS */
+.navbar.compact {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: var(--nav-shadow-md);
+}
+
+/* Support for high contrast mode */
+@media (prefers-contrast: more) {
+    .navbar {
+        border-bottom: 2px solid black;
+    }
+
+    .navbar .nav-links a::after {
+        height: 3px;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+
+    .mobile-menu,
+    .nav-overlay,
+    .navbar .nav-links a::after,
+    .mobile-menu a,
+    .navbar .logo {
+        transition: none !important;
+        animation: none !important;
+    }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Order Disputed - Order #{{orderNumber}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #FF9800;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .status-box {
+            background-color: #fff8e1;
+            border-left: 4px solid #FF9800;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+
+        .order-info {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border: 1px solid #e0e0e0;
+        }
+
+        .books-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        .books-table th,
+        .books-table td {
+            border: 1px solid #e0e0e0;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .books-table th {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white !important;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Order Dispute Raised</h2>
+    </div>
+
+    <div class="content">
+        <p>Dear {{sellerName}},</p>
+
+        <p>The buyer <strong>{{buyerName}}</strong> has raised an issue for Order #{{orderNumber}}.</p>
+
+        <div class="status-box">
+            <strong>Dispute Type:</strong>
+            <p>{{disputeType}}</p>
+            <strong>Description:</strong>
+            <p>{{disputeDescription}}</p>
+        </div>
+
+        <div class="order-info">
+            <p><strong>Order Number:</strong> #{{orderNumber}}</p>
+            <p><strong>Dispute Date:</strong> {{disputeDate}}</p>
+            <p><strong>Status:</strong> <span style="color: #FF9800;">DISPUTED</span></p>
+            <p><strong>Shipping Address:</strong><br>{{shippingAddress}}</p>
+        </div>
+
+        <h3>Books in Order:</h3>
+        <table class="books-table">
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each books}}
+                <tr>
+                    <td>{{title}}</td>
+                    <td>{{quantity}}</td>
+                    <td>₹{{price}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+        <a href="{{dashboardLink}}" class="button">View Order in Dashboard</a>
+
+        <p>We recommend responding to this dispute as soon as possible through your dashboard.</p>
+
+        <p>Best regards,<br />The {{companyName}} Team</p>
+    </div>
+
+    <div class="footer">
+        <p>© {{currentYear}} {{companyName}}. All rights reserved.</p>
+        <p>Need help? Contact us at <a href="mailto:{{supportEmail}}">{{supportEmail}}</a></p>
+    </div>
+</body>
+
+</html>

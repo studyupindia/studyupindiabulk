@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyUp - My Orders</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="/css/general.css" /> -->
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/order-history.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#publications">Place Order</a>
+          <a href="/contact">Contact Us</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/">Home</a>
+        <a href="/#publications">Place Order</a>
+        <a href="/contact">Contact Us</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %>
+      </div>
+    </section>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <div class="header-content">
+            <h1>My Orders</h1>
+            <div class="header-actions">
+              <button id="refresh-data" class="icon-btn" title="Refresh Data">
+                <i class="fas fa-sync-alt"></i>
+              </button>
+              <!-- <a href="index.html" class="btn-link">
+                <i class="fas fa-home"></i> Home
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-dashboard">
+        <div class="container">
+          <!-- Filter and Search Section -->
+          <div class="filter-section">
+            <div class="search-bar">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search by order ID, book title or code..."
+              />
+              <button id="clear-search" type="button" class="clear-input-btn">
+                <i class="fas fa-times"></i>
+              </button>
+              <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-options">
+              <div class="filter-group">
+                <label for="status-filter">Order Status</label>
+                <select id="status-filter">
+                  <option value="">All Statuses</option>
+                  <!-- Will be populated dynamically -->
+                </select>
+              </div>
+              <div class="filter-group">
+                <label for="publication-filter">Publication</label>
+                <select id="publication-filter">
+                  <option value="">All Publications</option>
+                  <option value="NCERT">NCERT</option>
+                  <option value="Oxford">Oxford</option>
+                  <option value="Cambridge">Cambridge</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label>Date Range</label>
+                <div class="date-filter">
+                  <input type="date" id="date-from" placeholder="From" />
+                  <input type="date" id="date-to" placeholder="To" />
+                </div>
+              </div>
+              <button id="clear-filters" class="btn-secondary">Reset</button>
+              <button id="apply-filters" class="btn-primary">
+                Apply Filters
+              </button>
+            </div>
+          </div>
+
+          <!-- Order Status Pipeline -->
+          <section class="pipeline-section">
+            <div class="section-header">
+              <h2>Order Pipeline</h2>
+            </div>
+            <div class="pipeline-container" id="pipeline-container">
+              <!-- Will be populated dynamically -->
+            </div>
+          </section>
+
+          <!-- Tab Navigation -->
+          <div class="order-tabs">
+            <button class="tab-btn active" data-tab="all">All Orders</button>
+            <button class="tab-btn" data-tab="pending">New Requests</button>
+            <button class="tab-btn" data-tab="quoted">Quoted</button>
+            <button class="tab-btn" data-tab="confirmed">Confirmed</button>
+            <button class="tab-btn" data-tab="shipped">Shipped</button>
+            <button class="tab-btn" data-tab="completed">Completed</button>
+            <button class="tab-btn" data-tab="cancelled">Cancelled</button>
+          </div>
+
+          <!-- Orders Container -->
+          <div class="orders-container">
+            <div id="orders-list">
+              <!-- Orders will be loaded here -->
+            </div>
+            <div id="loading-spinner" class="loading-spinner">
+              <div class="spinner"></div>
+            </div>
+            <div id="no-orders" class="no-data">
+              <img src="/api/placeholder/200/200" alt="No orders" />
+              <p>No orders found</p>
+              <!-- <a href="catalog.html" class="btn-primary mt-4">
+                <i class="fas fa-shopping-cart"></i> Browse Catalog
+              </a> -->
+            </div>
+          </div>
+
+          <!-- Quick Actions Floating Button -->
+          <div class="quick-actions">
+            <button
+              class="quick-action-btn"
+              id="scroll-to-top"
+              title="Scroll to Top"
+            >
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order Details Modal -->
+      <div id="order-details-modal" class="modal">
+        <div class="modal-content large-modal">
+          <div class="modal-header">
+            <h2>Order Details</h2>
+            <button class="modal-close" id="close-modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div id="modal-content">
+              <!-- Modal content will be loaded here -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="close-modal-btn">Close</button>
+            <div id="order-action-buttons">
+              <!-- Action buttons will be added here based on order status -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment Modal -->
+      <div id="payment-modal" class="modal">
+        <div class="modal-content payment-modal">
+          <div class="modal-header">
+            <h2>Complete Payment</h2>
+            <button class="modal-close" id="close-payment-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="payment-summary">
+              <div class="summary-header">
+                <h3>Order Summary</h3>
+                <div class="order-id">
+                  Order #<span id="payment-order-id"></span>
+                </div>
+              </div>
+
+              <div class="summary-items">
+                <div class="summary-item-count" id="payment-item-count"></div>
+                <div class="summary-total">
+                  <div class="total-label">Total Amount</div>
+                  <div class="total-amount" id="payment-amount">₹0</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="payment-methods">
+              <h3>Select Payment Method</h3>
+              <div class="payment-options">
+                <!-- Will be populated dynamically from payment methods constants -->
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-payment-btn">
+              Cancel
+            </button>
+            <button id="process-payment-btn" class="btn-primary">
+              <i class="fas fa-lock"></i> Pay Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quote Request Revision Modal -->
+      <div id="revision-modal" class="modal">
+        <div class="modal-content revision-modal">
+          <div class="modal-header">
+            <h2>Request Quote Revision</h2>
+            <button class="modal-close" id="close-revision-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="notification info-notification">
+              <i class="fas fa-info-circle"></i> Please explain what changes you
+              need in the quote.
+            </div>
+            <div class="form-group">
+              <label for="revision-reason">Revision Reason</label>
+              <textarea
+                id="revision-reason"
+                rows="4"
+                placeholder="Please explain what changes you need..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-revision-btn">
+              Cancel
+            </button>
+            <button id="submit-revision-btn" class="btn-primary">
+              <i class="fas fa-paper-plane"></i> Submit Request
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Cancellation Modal -->
+      <div id="cancel-order-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Cancel Order</h2>
+            <button class="modal-close" id="close-cancel-modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="notification warning-notification">
+              <i class="fas fa-exclamation-triangle"></i> You are about to
+              cancel this order. This action cannot be undone.
+            </div>
+            <div class="form-group">
+              <label for="cancellation-reason">Cancellation Reason</label>
+              <select id="cancellation-reason" required>
+                <option value="">Select a reason</option>
+                <option value="changed_mind">Changed my mind</option>
+                <option value="ordered_by_mistake">Ordered by mistake</option>
+                <option value="found_better_price">
+                  Found better price elsewhere
+                </option>
+                <option value="too_long_waiting">
+                  Taking too long to process
+                </option>
+                <option value="other">Other reason</option>
+              </select>
+            </div>
+            <div
+              class="form-group"
+              id="other-reason-group"
+              style="display: none"
+            >
+              <label for="other-reason">Specify Reason</label>
+              <textarea
+                id="other-reason"
+                placeholder="Please provide details for the cancellation..."
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="cancellation-notes"
+                >Additional Notes (Optional)</label
+              >
+              <textarea
+                id="cancellation-notes"
+                placeholder="Add any additional notes about this cancellation..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-cancellation-btn">
+              Back
+            </button>
+            <button class="btn-danger" id="confirm-cancellation-btn">
+              Confirm Cancellation
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dispute Modal -->
+      <div id="dispute-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Report an Issue</h2>
+            <button class="modal-close" id="close-dispute-modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="notification warning-notification">
+              <i class="fas fa-exclamation-triangle"></i> Please provide details
+              about your issue with this order.
+            </div>
+            <div class="form-group">
+              <label for="dispute-type">Issue Type</label>
+              <select id="dispute-type" required>
+                <option value="">Select issue type</option>
+                <option value="damaged">Damaged items received</option>
+                <option value="missing">Missing items in shipment</option>
+                <option value="wrong">Wrong items received</option>
+                <option value="quality">Quality issues</option>
+                <option value="delivery">Delivery issues</option>
+                <option value="other">Other issue</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="dispute-description">Description</label>
+              <textarea
+                id="dispute-description"
+                placeholder="Please describe your issue in detail..."
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-dispute-btn">
+              Cancel
+            </button>
+            <button class="btn-danger" id="submit-dispute-btn">
+              Submit Issue
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notifications -->
+      <div id="notification-container"></div>
+    </main>
+
+    <script src="/js/order-history.js"></script>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

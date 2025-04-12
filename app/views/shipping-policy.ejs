@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shipping Policy - StudyUpIndia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/shipping-policy.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <header class="navbar">
+        <div class="logo">StudyUpIndia</div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#publications">Publications</a>
+          <a href="/contact">Contact</a>
+          <% if (!user) { %>
+          <a href="/buyer/signin">Login</a>
+          <a href="/seller/signin">Seller ?</a>
+          <% } %> <% if (user && user.role == 'seller') { %>
+          <a href="/seller-dashboard">Dashboard</a>
+          <% } %> <% if (user && user.role == 'buyer') { %>
+          <a href="/order-history">Dashboard</a>
+          <% } %>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" id="menu-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <a href="/">Home</a>
+        <a href="/#publications">Publications</a>
+        <a href="/contact">Contact</a>
+        <% if (!user) { %>
+        <a href="/buyer/signin">Login</a>
+        <a href="/seller/signin">Seller ?</a>
+        <% } %> <% if (user && user.role == 'seller') { %>
+        <a href="/seller-dashboard">Dashboard</a>
+        <% } %> <% if (user && user.role == 'buyer') { %>
+        <a href="/order-history">Dashboard</a>
+        <% } %>
+      </div>
+    </section>
+
+    <div class="container">
+      <h1 class="page-title">Shipping Policy</h1>
+
+      <p>
+        At StudyUpIndia, we are committed to delivering your books and
+        educational materials in the most reliable and efficient way. Please
+        read our shipping policy to understand how orders are processed and
+        shipped.
+      </p>
+
+      <h2>1. Shipping Coverage</h2>
+      <p>
+        We currently offer shipping across most pin codes in India. If your
+        location is not serviceable, our team will inform you during the order
+        confirmation process.
+      </p>
+
+      <h2>2. Order Processing</h2>
+      <p>
+        Orders are typically processed within 1-3 business days after payment
+        confirmation. Customized or bulk orders may take additional processing
+        time, which will be communicated individually.
+      </p>
+
+      <h2>3. Estimated Delivery Time</h2>
+      <p>
+        Standard delivery time is between <strong>5-10 business days</strong>,
+        depending on your location and availability of the books. For remote or
+        non-metro areas, delivery may take slightly longer.
+      </p>
+
+      <h2>4. Delivery Partners</h2>
+      <p>
+        We work with trusted courier partners such as India Post, Delhivery,
+        Blue Dart, and DTDC. Once your order is shipped, you will receive
+        tracking details via email or SMS.
+      </p>
+
+      <h2>5. Delivery Charges & Handling Fee</h2>
+      <p>
+        Shipping charges may vary depending on the order size, weight, and
+        delivery location. Any applicable shipping charges will be shown during
+        checkout.
+      </p>
+      <p>
+        Additionally, a small <strong>handling fee</strong> may be applicable on
+        certain orders to cover packaging, logistics, and operational costs.
+        This will also be transparently displayed during checkout.
+      </p>
+
+      <h2>6. Delays</h2>
+      <p>
+        While we strive to ensure timely deliveries, delays may occasionally
+        occur due to unforeseen circumstances such as weather, strikes, or
+        supply chain issues. We will do our best to keep you informed of any
+        delay.
+      </p>
+
+      <h2>7. Order Tracking</h2>
+      <p>
+        Once your order is shipped, you can track it through the link shared
+        with your registered email/SMS. If you face any issues, feel free to
+        contact us for assistance.
+      </p>
+
+      <h2>8. Address Accuracy</h2>
+      <p>
+        Please make sure your shipping address and contact details are accurate
+        and complete. We are not responsible for delayed or failed deliveries
+        caused by incorrect address information.
+      </p>
+
+      <h2>9. Contact Us</h2>
+      <p>For any shipping-related queries or assistance, contact us at:</p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:studyupindia1@gmail.com">studyupindia1@gmail.com</a>
+        </li>
+        <li>Phone: +91 9868505044</li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StudyUpIndia</h3>
+          <p>Your trusted source for educational books and materials.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/return-and-refund">Return & Refund Policy</a></li>
+            <li><a href="/shipping-policy">Shipping Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/studyupindia" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/studyupindia/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@studyupindia" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 StudyUp India. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/js/toggle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/publication.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <title><%= title %></title>
+  </head>
+  <body data-cart-key="<%= cartKey %>" data-cart-publication="<%= cartPublication %>">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">Publication Store</div>
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle">
+        ☰
+      </button>
+    </header>
+    <div id="mobile-menu" class="mobile-menu">
+      <button class="close-btn" id="menu-close">✖</button>
+      <a href="#home">Home</a>
+      <!-- <a href="#publications">Publications</a> -->
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications-section">
+      <!-- <div class="publication-container"> -->
+        <!-- <img class="publication-logo" src="/image/ncert.png" alt="NCERT_logo"> -->
+        <!-- <h2>NCERT Publications</h2> -->
+      <!-- </div> -->
+       <div class="publication-container">
+        <% if (cartPublication === "NCERT") { %>
+            <img class="publication-logo" src="/image/ncert.png" alt="NCERT_logo">
+        <% } else { %>
+        <img class="publication-logo" src="/image/default.png" alt="Other_Publication">
+        <% } %>
+      </div>
+      <!-- Filters Container -->
+      <div class="filters-container-wrapper">
+        <div class="filters-container">
+          <select id="type-filter">
+            <option value="">Type</option>
+            <option value="textbook">Textbook</option>
+            <option value="others">Others</option>
+          </select>
+          <select id="subject-filter">
+            <option value="">Subject</option>
+            <option value="Science">Science</option>
+            <option value="General">General</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Social Studies">Social Studies</option>
+          </select>
+          <select id="language-filter">
+            <option value="">Language</option>
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+          </select>
+          <select id="class-filter">
+            <option value="">Class</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="others">Others</option>
+          </select>
+          <input type="text" id="search-bar" placeholder="Search title or Code" />
+          <button id="reset-filters">Reset Filters</button>
+        </div>
+      </div>
+
+      <!-- Accordion -->
+
+      <div class="accordion">
+        <button class="accordion-button">
+          <span class="accordion-label">Apply Filter</span>
+          <svg
+            class="accordion-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path d="M7 10l5 5 5-5H7z"></path>
+          </svg>
+        </button>
+        <div class="accordion-content"></div>
+      </div>
+      
+      <table class="product-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="product-list">
+          <!-- Rows dynamically populated -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Collapsible Accordion Cart -->
+    <div id="accordion-cart" class="accordion-cart">
+      <div class="collapsed-state">
+        <span id="cart-total">Total: ₹0</span>
+        <!-- <button id="expand-cart">Expand</button> -->
+        <button id="toggle-cart" class="toggle-button">Expand</button>
+      </div>
+      <div class="expanded-state hidden">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Qty.</th>
+              <th>S.Tot.</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="cart-items"></tbody>
+        </table>
+        <div class="cart-footer">
+          <span id="exapnd-total">Total: ₹0</span>
+          <button id="checkout-button" disabled>Checkout</button>
+          <!-- <button id="collapse-cart">Collapse</button> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/filter.js"></script>
+    <script src="/js/toggle.js"></script>
+    
+  </body>
+</html>
