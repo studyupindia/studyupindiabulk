@@ -22,13 +22,25 @@
       <section>
         <section>
           <header class="navbar">
-            <div class="logo">StudyUpIndia</div>
+            <!-- <div class="logo">StudyUpIndia</div> -->
+            <div class="logo">
+              <a href="/">
+                <div class="logo-img-wrapper">
+                  <img
+                    src="/image/brand_logo.png"
+                    alt="StudyUpIndia"
+                    class="logo-img"
+                  />
+                </div>
+                <span class="logo-text">StudyUpIndia</span>
+              </a>
+            </div>
             <nav class="nav-links">
               <a href="/">Home</a>
               <% if (!user) { %>
               <a href="/buyer/signin">Login</a>
               <a href="/seller/signin">Seller ?</a>
-              <% } %> 
+              <% } %>
             </nav>
             <button id="menu-toggle" class="menu-toggle">
               <i class="fas fa-bars"></i>
@@ -46,7 +58,7 @@
             <% if (!user) { %>
             <a href="/buyer/signin">Login</a>
             <a href="/seller/signin">Seller ?</a>
-            <% } %> 
+            <% } %>
           </div>
         </section>
       </section>

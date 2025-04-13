@@ -396,3 +396,80 @@
         animation: none !important;
     }
 }
+
+/* Added CSS for Logo */
+
+/* Base logo container */
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /* Locks the navbar height */
+}
+
+/* Anchor wraps the image and optional text */
+.navbar .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--nav-primary-color);
+    transition: color var(--nav-transition-fast), transform var(--nav-transition-fast);
+    cursor: pointer;
+}
+
+/* Optional hover effect */
+.navbar .logo a:hover {
+    color: var(--nav-primary-dark);
+}
+
+/* Hover scale effect */
+.navbar .logo a:hover .logo-img {
+    transform: scale(1.1);
+    /* subtle and smooth */
+}
+
+/* Wrapper limits layout impact, lets image look big */
+.logo-img-wrapper {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+}
+
+/* The logo image itself */
+.logo-img {
+    height: 80px;
+    /* Visually bigger */
+    width: auto;
+    object-fit: contain;
+    transition: transform var(--nav-transition-normal);
+    
+}
+
+/* Optional logo text */
+.logo-text {
+    display: none;
+    /* You can show this if you want */
+}
+
+/* Responsive: Tweak image size on smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar .logo {
+        height: 55px;
+    }
+
+    .logo-img {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar .logo {
+        height: 50px;
+    }
+
+    .logo-img {
+        height: 55px;
+    }
+}

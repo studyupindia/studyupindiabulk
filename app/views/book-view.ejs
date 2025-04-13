@@ -22,7 +22,19 @@
   >
     <!-- Navbar -->
     <header class="navbar">
-      <div class="logo">StudyUpIndia</div>
+      <!-- <div class="logo">StudyUpIndia</div> -->
+      <div class="logo">
+        <a href="/">
+          <div class="logo-img-wrapper">
+            <img
+              src="/image/brand_logo.png"
+              alt="StudyUpIndia"
+              class="logo-img"
+            />
+          </div>
+          <span class="logo-text">StudyUpIndia</span>
+        </a>
+      </div>
       <nav class="nav-links">
         <a href="/" class="active">Home</a>
         <a href="/#publications">Publications</a>
@@ -67,13 +79,21 @@
         <div class="publication-info">
           <div class="publication-brand">
             <% if (cartPublication === "NCERT") { %>
-              <img class="publication-logo" src="/image/ncert.png" alt="NCERT Logo" />
+            <img
+              class="publication-logo"
+              src="/image/ncert.png"
+              alt="NCERT Logo"
+            />
             <% } else { %>
-              <img class="publication-logo" src="/images/default.png" alt="Publication Logo" />
+            <img
+              class="publication-logo"
+              src="/images/default.png"
+              alt="Publication Logo"
+            />
             <% } %>
             <h1><%= cartPublication %> Books</h1>
           </div>
-          
+
           <!-- How to Order Button moved to header for better visibility -->
           <div class="how-to-order-container">
             <button id="how-to-order-btn" class="info-button">
@@ -93,14 +113,36 @@
       <div class="popover-content">
         <ul class="steps-list">
           <!-- <li><span class="step-number">1</span> Browse and select books from the catalog</li> -->
-          <li><span class="step-number">1</span> Add books to your cart and update quantity</li>
-          <li><span class="step-number">2</span> Ensure your order total is at least ₹10,000</li>
-          <li><span class="step-number">3</span> Click "Proceed to Checkout" to submit your request</li>
-          <li><span class="step-number">4</span> Seller will review your request and send you a quote</li>
-          <li><span class="step-number">5</span> Review and accept the quote to finalize your order</li>
-          <li><span class="step-number">6</span> Complete payment through the provided payment link</li>
+          <li>
+            <span class="step-number">1</span> Add books to your cart and update
+            quantity
+          </li>
+          <li>
+            <span class="step-number">2</span> Ensure your order total is at
+            least ₹10,000
+          </li>
+          <li>
+            <span class="step-number">3</span> Click "Proceed to Checkout" to
+            submit your request
+          </li>
+          <li>
+            <span class="step-number">4</span> Seller will review your request
+            and send you a quote
+          </li>
+          <li>
+            <span class="step-number">5</span> Review and accept the quote to
+            finalize your order
+          </li>
+          <li>
+            <span class="step-number">6</span> Complete payment through the
+            provided payment link
+          </li>
         </ul>
-        <p class="note"><i class="fas fa-exclamation-circle"></i> Note: Delivery charges and handling fees may be added in the quote shared by the seller as applicable.</p>
+        <p class="note">
+          <i class="fas fa-exclamation-circle"></i> Note: Delivery charges and
+          handling fees may be added in the quote shared by the seller as
+          applicable.
+        </p>
       </div>
     </div>
 
@@ -187,7 +229,11 @@
         <div class="results-info">
           <span id="results-count">Showing all books</span>
           <div class="view-toggle">
-            <button id="table-view-btn" class="view-btn active" aria-label="Table view">
+            <button
+              id="table-view-btn"
+              class="view-btn active"
+              aria-label="Table view"
+            >
               <i class="fas fa-table"></i>
             </button>
             <button id="grid-view-btn" class="view-btn" aria-label="Grid view">
@@ -262,7 +308,10 @@
               <span id="items-count">0</span>
             </div>
             <div class="summary-item delivery-note">
-              <span>*Delivery/Handling Charges will be included in seller's quote</span>
+              <span
+                >*Delivery/Handling Charges will be included in seller's
+                quote</span
+              >
             </div>
             <div class="summary-item">
               <span>Total:</span>
