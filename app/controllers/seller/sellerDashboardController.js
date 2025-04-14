@@ -563,8 +563,8 @@ exports.createQuote = async (req, res) => {
             contact: updatedOrder.buyer?.phone,
           },
           notify: {
-            sms: true,
-            email: true,
+            sms: false,
+            email: false,
           },
           reminder_enable: true,
           callback_url: `${process.env.BUYER_DASHBOARD_URL}`,
