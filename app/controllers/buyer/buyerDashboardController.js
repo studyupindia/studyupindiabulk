@@ -1247,6 +1247,7 @@ exports.handleRazorpayWebhook = async (req, res) => {
     console.log("✅ Parsed webhook event:", event);
 
     if (event.event !== "payment_link.paid") {
+      console.log("🔄 Ignoring non-payment link event:", event.event);
       return res.status(200).json({ status: "ignored" });
     }
 
@@ -1256,6 +1257,10 @@ exports.handleRazorpayWebhook = async (req, res) => {
     const quoteId = notes.quote_id;
     const orderId = notes.internal_order_id;
     const buyerId = notes.customer_id;
+
+    console.log("Quote ID:", quoteId);
+    console.log("Order ID:", orderId);
+    console.log("Buyer ID:", buyerId);
 
     if (!quoteId || !orderId) {
       return res
@@ -1275,6 +1280,7 @@ exports.handleRazorpayWebhook = async (req, res) => {
     });
 
     if (existingPayment) {
+      console.log("🔄 Payment already processed:", existingPayment.id);
       return res.status(200).json({ status: "already processed" });
     }
 
