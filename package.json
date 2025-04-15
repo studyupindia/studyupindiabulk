@@ -35,6 +35,7 @@
     "path": "^0.12.7",
     "pg": "^8.13.1",
     "pg-hstore": "^2.3.4",
+    "prom-client": "^15.1.3",
     "razorpay": "^2.9.6",
     "sequelize": "^6.37.5",
     "serve-favicon": "^2.5.0"

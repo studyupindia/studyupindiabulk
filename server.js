@@ -8,8 +8,57 @@ const helmet = require("helmet");
 const cors = require("cors");
 const path = require("path");
 const bootstrap = require("./bootstrap"); // Import the bootstrap script
+const client = require("prom-client");
 
 const app = express(); // Create an Express application
+
+const register = new client.Registry();
+client.collectDefaultMetrics({ register }); // basic metrics
+
+// Optional custom metric
+// const requestCounter = new client.Counter({
+//   name: "http_requests_total",
+//   help: "Total number of HTTP requests",
+// });
+
+const requestCounter = new client.Counter({
+  name: "http_requests_total",
+  help: "Total number of HTTP requests",
+  labelNames: ["method", "route", "status"],
+});
+
+register.registerMetric(requestCounter);
+
+// Middleware to increment counter with labels
+app.use((req, res, next) => {
+  res.on('finish', () => {
+    requestCounter.inc({
+      method: req.method,
+      route: req.route ? req.route.path : req.path, // handles route matching
+      status: res.statusCode,
+    });
+  });
+  next();
+});
+
+// app.use((req, res, next) => {
+//   requestCounter.inc(); // count each request
+//   next();
+// });
+
+app.use((req, res, next) => {
+  if (req.path !== "/metrics") {
+    requestCounter.inc();
+  }
+  next();
+});
+
+
+// Metrics endpoint
+app.get('/metrics', async (req, res) => {
+  res.set('Content-Type', register.contentType);
+  res.end(await register.metrics());
+});
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
