@@ -1318,7 +1318,6 @@ exports.handleRazorpayWebhook = async (req, res) => {
       { transaction }
     );
 
-
     // Update order status
     await order.updateStatus(
       "payment_completed",
@@ -1362,7 +1361,6 @@ exports.handleRazorpayWebhook = async (req, res) => {
         emailErr
       );
     }
-
 
     return res.status(200).json({ success: true });
   } catch (err) {
