@@ -5,6 +5,7 @@ module.exports = {
   BOOK_TYPES: [
     "textbook",
     "novel",
+    "general",
     "magazine",
     "comic",
     "competitive",
@@ -12,6 +13,7 @@ module.exports = {
   ],
   BOOK_LANGUAGES: ["english", "hindi", "sanskrit", "other"],
   BOOK_CLASSES: [
+    "Balvatika",
     "1",
     "2",
     "3",

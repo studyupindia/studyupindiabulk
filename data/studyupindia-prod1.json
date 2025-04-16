@@ -1,4 +1,33 @@
-[
+[   {
+        "code": "13246",
+        "title": "Anand - Activity Book for Balvatika",
+        "publication": "NCERT",
+        "type": "general",
+        "language": "english",
+        "class": "Balvatika",
+        "price": 160.0,
+        "subject": "English"
+    },
+    {
+        "code": "13254",
+        "title": "Anand - Loose Work sheets",
+        "publication": "NCERT",
+        "type": "general",
+        "language": "english",
+        "class": "Balvatika",
+        "price": 150.0,
+        "subject": "English"
+    },
+    {
+        "code": "000000",
+        "title": "Jaadui Pitara Set",
+        "publication": "NCERT",
+        "type": "general",
+        "language": "english",
+        "class": "Balvatika",
+        "price": 4440.0,
+        "subject": "English"
+    },
     {
         "code": "123",
         "title": "Mridang",
